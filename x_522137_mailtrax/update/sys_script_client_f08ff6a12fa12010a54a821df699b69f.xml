@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display Action Requested choices that match the Request type value.</description>
+        <field>u_request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>MailTrax Request Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+		if ( newValue == '') {
+			return;
+		}
+		
+		var whatneeded = g_form.getValue('u_action_requested');
+		
+		// Clear all of the choices from the What needed field choice list
+		g_form.clearOptions('u_action_requested');
+		
+		// If the value of the Request type field is no_response_required, add
+		// choices and other to the What needed field choice list
+		if(newValue == 'no_response_required'){
+			g_form.addOption('u_action_requested','no response required','No Response Required');
+			g_form.addOption('u_action_requested','file','File');
+			g_form.addOption('u_action_requested','information','Information');
+			g_form.addOption('u_action_requested','keep enclosure(s)','Keep Enclosure(s)');
+			//g_form.addOption('u_action_requested','no response required','No Response Required');
+			g_form.addOption('u_action_requested','review','Review');
+			g_form.addOption('u_action_requested','other','Other');
+		}
+		// If the value of the Request type field is no_due_date, add
+		// choices and other to the What needed field choice list
+		if(newValue == 'no_due_date'){
+			g_form.addOption('u_action_requested','appropriate attention & action','Appropriate Attention & Action');
+			g_form.addOption('u_action_requested','arrange meeting','Arrange Meeting');
+			g_form.addOption('u_action_requested','comment & recommendations','Comment & Recommendations');
+			g_form.addOption('u_action_requested','direct action/reply','Direct Action/Reply');
+			g_form.addOption('u_action_requested','draft reply','Draft Reply');
+			g_form.addOption('u_action_requested','final reply for governors signature','Final Reply for Governors Signature');
+			g_form.addOption('u_action_requested','investigate & report back','Investigate & Report Back');
+			g_form.addOption('u_action_requested','phone call','Phone Call');
+			g_form.addOption('u_action_requested','return','Return');
+			g_form.addOption('u_action_requested','return enclosure(s)','Return Enclosure(s)');
+			g_form.addOption('u_action_requested','see me','See Me');
+			g_form.addOption('u_action_requested','signature','Signature');
+			g_form.addOption('u_action_requested','submit copy of response','Submit Copy of Response');
+			g_form.addOption('u_action_requested','other','Other');
+		}
+		// If the value of the Request type field is response_requested, add
+		// choices and other to the What needed field choice list
+		if(newValue == 'response_requested'){
+			g_form.addOption('u_action_requested','appropriate attention & action','Appropriate Attention & Action');
+			g_form.addOption('u_action_requested','arrange meeting','Arrange Meeting');
+			g_form.addOption('u_action_requested','comment & recommendations','Comment & Recommendations');
+			g_form.addOption('u_action_requested','direct action/reply','Direct Action/Reply');
+			g_form.addOption('u_action_requested','draft reply','Draft Reply');
+			g_form.addOption('u_action_requested','final reply for governors signature','Final Reply for Governors Signature');
+			g_form.addOption('u_action_requested','investigate & report back','Investigate & Report Back');
+			g_form.addOption('u_action_requested','phone call','Phone Call');
+			g_form.addOption('u_action_requested','return','Return');
+			g_form.addOption('u_action_requested','return enclosure(s)','Return Enclosure(s)');
+			g_form.addOption('u_action_requested','see me','See Me');
+			g_form.addOption('u_action_requested','signature','Signature');
+			g_form.addOption('u_action_requested','submit copy of response','Submit Copy of Response');
+			g_form.addOption('u_action_requested','other','Other');
+		}
+		
+		// If the form is loading and it is not a new record, set the u_action_requested value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('u_action_requested', whatneeded);
+		}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-06 22:48:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f08ff6a12fa12010a54a821df699b69f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MailTrax Request Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_client_f08ff6a12fa12010a54a821df699b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-12 19:42:33</sys_updated_on>
+        <table>x_522137_mailtrax_mailtrax</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

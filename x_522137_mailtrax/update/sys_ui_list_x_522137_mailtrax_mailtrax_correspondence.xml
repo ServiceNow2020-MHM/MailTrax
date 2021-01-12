@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_522137_mailtrax_mailtrax" version="2" view="Correspondence">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_log_date</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>a73889972f252010a54a821df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>2b3889972f252010a54a821df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>ab3889972f252010a54a821df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>2f3889972f252010a54a821df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_action_requested</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>af3889972f252010a54a821df699b63f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_letter_from</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>233889972f252010a54a821df699b640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_letter_subject</element>
+            <list_id display_value="x_522137_mailtrax_mailtrax" element="NULL" name="x_522137_mailtrax_mailtrax" parent="NULL" relationship="NULL" sys_domain="global" view="50b981852f612010a54a821df699b671">eb3889972f252010a54a821df699b63e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_id>a33889972f252010a54a821df699b640</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 00:30:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb3889972f252010a54a821df699b63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_522137_mailtrax_mailtrax</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_ui_list_x_522137_mailtrax_mailtrax_Correspondence</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 00:30:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Correspondence" name="Correspondence">50b981852f612010a54a821df699b671</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

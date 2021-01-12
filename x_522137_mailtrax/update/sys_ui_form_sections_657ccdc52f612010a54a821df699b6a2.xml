@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="657ccdc52f612010a54a821df699b6a2" sys_domain="global" table="x_522137_mailtrax_mailtrax" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 01:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e17ccdc52f612010a54a821df699b6a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">657ccdc52f612010a54a821df699b6a2</sys_ui_form>
+            <sys_ui_section caption="GOV Referral - Correspondence Info" display_value="GOV Referral - Correspondence Info" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">697ccdc52f612010a54a821df699b6a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 01:02:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 01:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad7ccdc52f612010a54a821df699b6a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">657ccdc52f612010a54a821df699b6a2</sys_ui_form>
+            <sys_ui_section caption="Action Request Information" display_value="Action Request Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">a17ccdc52f612010a54a821df699b6a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 01:02:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 01:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a17ccdc52f612010a54a821df699b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">657ccdc52f612010a54a821df699b6a2</sys_ui_form>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="ed7c8dc52f612010a54a821df699b6fb">a97ccdc52f612010a54a821df699b6a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 01:02:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_522137_mailtrax_mailtrax</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 01:02:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>657ccdc52f612010a54a821df699b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_522137_mailtrax_mailtrax</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_657ccdc52f612010a54a821df699b6a2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 01:02:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Governor Referral" name="Governor_Referral">ed7c8dc52f612010a54a821df699b6fb</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

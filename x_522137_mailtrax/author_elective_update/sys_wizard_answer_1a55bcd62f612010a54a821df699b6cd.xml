@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>MailTrax Correspondence</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>MailTrax Correspondence</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">60c3aba62f031010a54a821df699b6b8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 20:34:21</sys_created_on>
+        <sys_id>1a55bcd62f612010a54a821df699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Correspondence</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_wizard_answer_1a55bcd62f612010a54a821df699b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 20:34:21</sys_updated_on>
+        <table/>
+        <target_url>x_522137_mailtrax_mailtrax_correspondence.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_wizard_answer_1a55bcd62f612010a54a821df699b6cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>MailTrax Correspondence</answer><button_label/><dependent_value/><element/><name>MailTrax Correspondence</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">60c3aba62f031010a54a821df699b6b8</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-08 20:34:21</sys_created_on><sys_id>1a55bcd62f612010a54a821df699b6cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MailTrax Correspondence</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_wizard_answer_1a55bcd62f612010a54a821df699b6cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-08 20:34:21</sys_updated_on><table/><target_url>x_522137_mailtrax_mailtrax_correspondence.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1824562126</payload_hash>
+        <record_name>MailTrax Correspondence</record_name>
+        <reverted_from/>
+        <source>bdeb36112f231010a54a821df699b621</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-09-28 17:42:44</sys_created_on>
+        <sys_id>5195f01a2f612010a54a821df699b63e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>174d5cf42200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>1195f01a736120107da688debfbb7b3e</update_guid>
+        <update_guid_history>1195f01a736120107da688debfbb7b3e:1824562126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 20:35:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>94dc99f5e8f441f3a3a799f49090a861</sys_id>
+        <sys_metadata>1a55bcd62f612010a54a821df699b6cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Correspondence</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent display_value="Task">60c3aba62f031010a54a821df699b6b8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_1a55bcd62f612010a54a821df699b6cd</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_1a55bcd62f612010a54a821df699b6cd">5195f01a2f612010a54a821df699b63e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 20:35:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

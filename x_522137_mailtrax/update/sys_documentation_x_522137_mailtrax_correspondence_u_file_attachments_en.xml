@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_file_attachments" label="File attachment(s)" language="en" table="x_522137_mailtrax_correspondence">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_file_attachments</element>
+            <help/>
+            <hint/>
+            <label>File attachment(s)</label>
+            <language>en</language>
+            <name>x_522137_mailtrax_correspondence</name>
+            <plural>File attachment(s)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-08 21:34:46</sys_created_on>
+            <sys_id>9f2341522fa12010a54a821df699b6d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>File attachment(s)</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_documentation_x_522137_mailtrax_correspondence_u_file_attachments_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-08 21:34:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="MailTrax Correspondence">c255bcd62f612010a54a821df699b682</application>
+        <filter/>
+        <name>MailTrax Correspondences</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_522137_mailtrax.mailtrax_correspondence_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 20:34:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca55bcd62f612010a54a821df699b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Correspondences</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_ui_module_ca55bcd62f612010a54a821df699b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 20:34:20</sys_updated_on>
+        <table>x_522137_mailtrax_mailtrax_correspondence</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_ui_module_ca55bcd62f612010a54a821df699b684</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="MailTrax Correspondence">c255bcd62f612010a54a821df699b682</application><filter/><name>MailTrax Correspondences</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_522137_mailtrax.mailtrax_correspondence_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-08 20:34:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ca55bcd62f612010a54a821df699b684</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MailTrax Correspondences</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_ui_module_ca55bcd62f612010a54a821df699b684</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-08 20:34:20</sys_updated_on><table>x_522137_mailtrax_mailtrax_correspondence</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>15213259</payload_hash>
+        <record_name>MailTrax Correspondences</record_name>
+        <reverted_from/>
+        <source>29d2772e2f112010a54a821df699b60d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 20:34:20</sys_created_on>
+        <sys_id>4255bcd62f612010a54a821df699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176e3b507dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 20:34:20</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8a55bcd61b6120103069520318316686</update_guid>
+        <update_guid_history>8a55bcd61b6120103069520318316686:15213259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 20:35:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>88b137173b034d7ca309ae39f937e8c4</sys_id>
+        <sys_metadata>ca55bcd62f612010a54a821df699b684</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Correspondences</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_ui_module_ca55bcd62f612010a54a821df699b684</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_ca55bcd62f612010a54a821df699b684">4255bcd62f612010a54a821df699b687</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 20:35:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

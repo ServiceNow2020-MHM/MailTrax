@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_522137_mailtrax_governor_referral</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 21:39:36</sys_created_on>
+        <sys_id>4e448d522fa12010a54a821df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_522137_mailtrax_governor_referral</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>ua_table_licensing_config_4e448d522fa12010a54a821df699b68b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 21:39:36</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>ua_table_licensing_config_4e448d522fa12010a54a821df699b68b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_522137_mailtrax_governor_referral</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-08 21:39:36</sys_created_on><sys_id>4e448d522fa12010a54a821df699b68b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_522137_mailtrax_governor_referral</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>ua_table_licensing_config_4e448d522fa12010a54a821df699b68b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-08 21:39:36</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>207948569</payload_hash>
+        <record_name>x_522137_mailtrax_governor_referral</record_name>
+        <reverted_from/>
+        <source>29d2772e2f112010a54a821df699b60d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-08 21:39:36</sys_created_on>
+        <sys_id>c2448d522fa12010a54a821df699b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176e3f0c8180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-08 21:39:36</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>0e448d52fda12010b21f4c9f6324c88c</update_guid>
+        <update_guid_history>0e448d52fda12010b21f4c9f6324c88c:207948569</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-11 17:18:18</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>47a0d76ee0974c6082417d5bad1bd100</sys_id>
+        <sys_metadata>4e448d522fa12010a54a821df699b68b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_522137_mailtrax_governor_referral</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_4e448d522fa12010a54a821df699b68b</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_4e448d522fa12010a54a821df699b68b">c2448d522fa12010a54a821df699b68d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-11 17:18:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

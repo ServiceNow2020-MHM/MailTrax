@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the GetOriginatorCompany Script Include to retrieve the Originator's Company/Department from the database when the Originator (from) value changes.</description>
+        <field>u_letter_from</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>MailTrax Populate Company Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+	// Modified the if to return if the newValue == oldValue to avoid
+	// unecessary trips to the server
+	if (isLoading || newValue === '' || newValue == oldValue) {
+		return;
+	}
+
+	// Instantiate the GetMailingListInfo Script Include 
+	var getCompany = new GlideAjax('GetOriginatorCompany');
+	// Specify the getcompany method
+	getCompany.addParam('sysparm_name','getCompany');
+	// Pass the Originator's Name
+	getCompany.addParam('sysparm_mailingname', g_form.getValue('u_letter_from'));
+	// Send the request to the server
+	getCompany.getXML(populateCompanyField);
+
+	// When the response is back from the server
+	function populateCompanyField(response){
+		// Extract the company from the response, clear any value from the Originator's Company/Department field, 
+		// set new value in the Originator's Company/Department field
+		var infoFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue('u_originator_company');
+		g_form.setValue('u_originator_company',infoFromScriptInclude);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-07 21:45:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0ea3bf52f612010a54a821df699b6c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MailTrax Populate Company Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_client_f0ea3bf52f612010a54a821df699b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-07 23:59:02</sys_updated_on>
+        <table>x_522137_mailtrax_mailtrax</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

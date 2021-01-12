@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Journal Information" section_id="e4b981852f612010a54a821df699b676" sys_domain="global" table="x_522137_mailtrax_mailtrax" version="3" view="Correspondence">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>3f895c972fa12010a54a821df699b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>bf895c972fa12010a54a821df699b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>33895c972fa12010a54a821df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>b3895c972fa12010a54a821df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>37895c972fa12010a54a821df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>b7895c972fa12010a54a821df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-11 21:06:53</sys_created_on>
+            <sys_id>3b895c972fa12010a54a821df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-11 21:06:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Journal Information</caption>
+            <header>false</header>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 00:50:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4b981852f612010a54a821df699b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Journal Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_ui_section_e4b981852f612010a54a821df699b676</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 00:50:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Correspondence" name="Correspondence">50b981852f612010a54a821df699b671</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

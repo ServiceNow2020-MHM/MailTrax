@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_other" label="Other" language="en" table="x_522137_mailtrax_mailtrax">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_other</element>
+            <help/>
+            <hint/>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <plural>Others</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-05 21:05:57</sys_created_on>
+            <sys_id>ffcf5d592f2d2010a54a821df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_documentation_x_522137_mailtrax_mailtrax_u_other_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-05 21:05:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

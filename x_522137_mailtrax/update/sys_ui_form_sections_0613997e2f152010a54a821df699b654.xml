@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0613997e2f152010a54a821df699b654" sys_domain="global" table="x_522137_mailtrax_mailtrax" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 01:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de13997e2f152010a54a821df699b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">0613997e2f152010a54a821df699b654</sys_ui_form>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">1148783e2fd12010a54a821df699b6fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 01:45:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 01:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9213997e2f152010a54a821df699b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">0613997e2f152010a54a821df699b654</sys_ui_form>
+            <sys_ui_section caption="Action Request Information" display_value="Action Request Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">8613997e2f152010a54a821df699b652</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 01:45:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 23:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bea9350f2f912010a54a821df699b6ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_522137_mailtrax_mailtrax" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">0613997e2f152010a54a821df699b654</sys_ui_form>
+            <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">b6a9350f2f912010a54a821df699b6ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 23:12:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_522137_mailtrax_mailtrax</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-29 01:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0613997e2f152010a54a821df699b654</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_522137_mailtrax_mailtrax</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0613997e2f152010a54a821df699b654</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-29 01:45:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
