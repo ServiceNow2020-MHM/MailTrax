@@ -21,6 +21,25 @@
             <element>u_action_requested</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Review and Respond</label>
+            <language>en</language>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-12 23:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf6002af2f216010a54a821df699b663</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-12 23:15:01</sys_updated_on>
+            <value>review and respond</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_action_requested</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Appropriate Attention &amp; Action</label>
             <language>en</language>
             <name>x_522137_mailtrax_mailtrax</name>

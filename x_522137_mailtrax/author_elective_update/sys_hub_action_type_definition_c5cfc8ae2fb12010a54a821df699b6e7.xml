@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>package_private</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send Notification to user defined in Route to field</description>
+        <ih_action>false</ih_action>
+        <internal_name>send_approval_request_notification</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Send Approval Request Notification</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 22:44:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5cfc8ae2fb12010a54a821df699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Approval Request Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c5cfc8ae2fb12010a54a821df699b6e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 22:44:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=c5cfc8ae2fb12010a54a821df699b6e7"/>
+    <sys_variable_value action="DELETE" query="document_key=c5cfc8ae2fb12010a54a821df699b6e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_hub_action_type_definition_c5cfc8ae2fb12010a54a821df699b6e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>package_private</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description>Send Notification to user defined in Route to field</description><ih_action>false</ih_action><internal_name>send_approval_request_notification</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Send Approval Request Notification</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-21 22:44:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5cfc8ae2fb12010a54a821df699b6e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Send Approval Request Notification</sys_name><sys_overrides/><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_hub_action_type_definition_c5cfc8ae2fb12010a54a821df699b6e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-21 22:44:19</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=c5cfc8ae2fb12010a54a821df699b6e7"/><sys_variable_value action="delete_multiple" query="document_key=c5cfc8ae2fb12010a54a821df699b6e7"/></record_update>]]></payload>
+        <payload_hash>-667702310</payload_hash>
+        <record_name>Send Approval Request Notification</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 22:44:19</sys_created_on>
+        <sys_id>85cfc8ae2fb12010a54a821df699b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177271eb4df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 22:44:19</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>cdcfc8ae4db1201088fb245caa88bbea</update_guid>
+        <update_guid_history>cdcfc8ae4db1201088fb245caa88bbea:-667702310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-21 22:47:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>3ed86d13d8d4411094caf4139885a100</sys_id>
+        <sys_metadata>c5cfc8ae2fb12010a54a821df699b6e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Approval Request Notification</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_c5cfc8ae2fb12010a54a821df699b6e7</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_c5cfc8ae2fb12010a54a821df699b6e7">85cfc8ae2fb12010a54a821df699b6eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-21 22:47:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

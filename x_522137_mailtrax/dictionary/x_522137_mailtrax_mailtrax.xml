@@ -2,6 +2,7 @@
     <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="no response required" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
+                <element inactive_on_update="false" label="Review and Respond" value="review and respond"/>
                 <element inactive_on_update="false" label="Appropriate Attention &amp; Action" sequence="0" value="appropriate attention &amp; action"/>
                 <element inactive="true" inactive_on_update="true" label="Final Reply for Governor's Signature" sequence="0" value="final reply for governor's signature"/>
                 <element inactive_on_update="false" label="Arrange Meeting" sequence="1" value="arrange meeting"/>
@@ -56,12 +57,13 @@
         <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="no_response_required" label="Request type" max_length="40" name="u_request_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="No Response to DIR required" sequence="0" value="no_response_required"/>
+                <element inactive_on_update="false" label="Letter Approval Request" sequence="0" value="letter_approval"/>
                 <element inactive_on_update="false" label="No Due Date - Respond ASAP" sequence="1" value="no_due_date"/>
-                <element inactive_on_update="false" label="Response Requested" sequence="2" value="response_requested"/>
+                <element inactive_on_update="false" label="No Response Required" sequence="2" value="no_response_required"/>
+                <element inactive_on_update="false" label="Response Requested" sequence="3" value="response_requested"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Route to date" max_length="40" name="u_route_to_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Route to date" max_length="40" name="u_route_to_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_when_needed" type="glide_date"/>
     </element>
 </database>

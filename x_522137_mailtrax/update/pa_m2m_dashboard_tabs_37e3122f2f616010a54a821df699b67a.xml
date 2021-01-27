@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Self Service">a7e356eb2f616010a54a821df699b638</dashboard>
+        <home>false</home>
+        <homepage display_value="Self Service">4da11b86c611229701f1d31a48c9245d</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-13 00:40:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37e3122f2f616010a54a821df699b67a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>a7e356eb2f616010a54a821df699b638</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_37e3122f2f616010a54a821df699b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-13 00:40:02</sys_updated_on>
+        <tab display_value="Self Service - New Tab">bbe3122f2f616010a54a821df699b677</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
