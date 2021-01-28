@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="no response required" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
                 <element inactive_on_update="false" label="Review and Respond" value="review and respond"/>
@@ -33,7 +33,7 @@
         <element attributes="edge_encryption_enabled=true" label="E-mailed on date" max_length="40" name="u_date_routed" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date to Governor" max_length="40" name="u_date_to_gov" type="glide_date"/>
         <element label="When needed" max_length="40" name="u_due_dat" type="due_date"/>
-        <element label="File Attachment(s)" max_length="40" name="u_file_attachment" type="file_attachment"/>
+        <element label="File Attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
         <element attributes="encode_utf8=false" label="From company" max_length="32" name="u_from_company" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Governor Referral number" max_length="40" name="u_govref_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Correspondence date" max_length="40" name="u_letter_date" type="glide_date"/>

@@ -22,7 +22,7 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>x_522137_mailtrax.LetterApprovalNotifica</event_name>
+        <event_name>alm_transfer_order_line_subtask.escalati</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -35,14 +35,14 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${assigned_to.first_name},</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">A new letter approval request has been sent to you:</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">MailTrax Log number: ${number}:</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Letter Addressed to: ${u_addressed_to}</span><br /><br /><span style="font-family: helvetica; font-size: 10pt;">Letter Subject: ${u_letter_subject}</span><br /><br /></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Please complete this request as soon as possible.&nbsp; Click here to view the MailTrax record: ${URI_REF}.</span></p>]]></message_html>
+        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${u_requested_for.first_name},</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Your letter draft has NOT been approved.&nbsp; </span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Click here to view my comments in the MailTrax record: ${URI_REF}: &nbsp;&nbsp;</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">Regards,</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">${assigned_to.first_name}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Letter Approval Request</name>
+        <name>MTX Reject Notification</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -53,23 +53,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Letter Approval Requested: ${number}</subject>
+        <subject>Approval Request is Not Approved:  ${number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-21 22:12:03</sys_created_on>
+        <sys_created_on>2021-01-27 21:48:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>639404e62fb12010a54a821df699b6b3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Letter Approval Request</sys_name>
+        <sys_id>401c3e142f822010a54a821df699b67c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>MTX Reject Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
-        <sys_update_name>sysevent_email_action_639404e62fb12010a54a821df699b6b3</sys_update_name>
+        <sys_update_name>sysevent_email_action_401c3e142f822010a54a821df699b67c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:57:41</sys_updated_on>
+        <sys_updated_on>2021-01-27 23:56:16</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
