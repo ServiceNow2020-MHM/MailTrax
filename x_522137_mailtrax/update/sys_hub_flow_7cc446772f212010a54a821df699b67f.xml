@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Steps to approve and fulfill New Letter approval requests.</description>
         <internal_name>mailtrax__new_letter_approval</internal_name>
-        <label_cache>[{"name":"fd6c0594-f01d-4b0b-9ff5-e6457760da0b.table_name","label":"4➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd6c0594-f01d-4b0b-9ff5-e6457760da0b.record","label":"4➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_requested_for","label":"1➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"94e2f8d1-bed7-4eb7-b271-7a4c75c68902.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.due_date","label":"1➛MailTrax Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"due_date"},{"name":"b5a13e08-8c79-4a66-a813-4fe2193e300f.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b5a13e08-8c79-4a66-a813-4fe2193e300f.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d69075-4aa1-4732-a650-bdef564f4e90.table_name","label":"5.1➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d69075-4aa1-4732-a650-bdef564f4e90.record","label":"5.1➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3dd53363-8913-4b2e-a73d-e7923b38e9f2.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3dd53363-8913-4b2e-a73d-e7923b38e9f2.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"676c57ea-db42-4cb0-a28c-d9bbbd6ca733.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"676c57ea-db42-4cb0-a28c-d9bbbd6ca733.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.u_requested_for","label":"Trigger➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"Created_1.current.u_log_date","label":"Trigger➛MailTrax Record➛Log date","reference":"","reference_display":"Log date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_log_date"},{"name":"Created_1.current.assigned_to.manager","label":"Trigger➛MailTrax Record➛Route to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.assigned_to","label":"Trigger➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"Created_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.assigned_to","label":"1➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"f44c191c-c5f7-46a2-a383-593746165536.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5dbf9c3-c29a-4a3e-93d4-b60e40c0f179.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Updated_1.current.u_requested_for","label":"Trigger➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"3eefc8e7-da08-4a42-8268-a1815b94b153.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.table_name","label":"1➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record","label":"1➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eed090ff-e7a4-426b-9323-113de3592754.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eed090ff-e7a4-426b-9323-113de3592754.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.assigned_to","label":"Trigger➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"9cbd8a07-ce0b-4414-a519-74cd5202489e.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.assigned_to.manager","label":"1➛MailTrax Record➛Route to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"61171c98-a334-4e99-9d53-0f2af95ecc07.record","label":"4.1➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61171c98-a334-4e99-9d53-0f2af95ecc07.table_name","label":"4.1➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_requested_for.manager","label":"1➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_route_to_date","label":"1➛MailTrax Record➛Route to date","reference":"","reference_display":"Route to date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_route_to_date"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.opened_at","label":"1➛MailTrax Record➛Routed to date","reference":"","reference_display":"Routed to date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"opened_at"},{"name":"ddb79b06-f18b-4659-944b-f4bf48ee237e.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddb79b06-f18b-4659-944b-f4bf48ee237e.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"4d788dd2-5b7c-48a7-95cc-c0528e0ee611.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4d788dd2-5b7c-48a7-95cc-c0528e0ee611.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4d15d8db-a809-45cb-bcbb-7c9e8d6f8e78.updated_time","label":"1➛Updated Time","reference_display":"Updated Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8023a0d1-0d0d-400c-a822-285358ac7db8"}},{"name":"fd6c0594-f01d-4b0b-9ff5-e6457760da0b.table_name","label":"4➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd6c0594-f01d-4b0b-9ff5-e6457760da0b.record","label":"4➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_requested_for","label":"2➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"94e2f8d1-bed7-4eb7-b271-7a4c75c68902.email","label":"5➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.due_date","label":"2➛MailTrax Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"due_date"},{"name":"b5a13e08-8c79-4a66-a813-4fe2193e300f.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b5a13e08-8c79-4a66-a813-4fe2193e300f.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d69075-4aa1-4732-a650-bdef564f4e90.table_name","label":"6.1➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d69075-4aa1-4732-a650-bdef564f4e90.record","label":"6.1➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3dd53363-8913-4b2e-a73d-e7923b38e9f2.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3dd53363-8913-4b2e-a73d-e7923b38e9f2.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"676c57ea-db42-4cb0-a28c-d9bbbd6ca733.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"676c57ea-db42-4cb0-a28c-d9bbbd6ca733.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.u_requested_for","label":"Trigger➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"Created_1.current.u_log_date","label":"Trigger➛MailTrax Record➛Log date","reference":"","reference_display":"Log date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_log_date"},{"name":"Created_1.current.assigned_to.manager","label":"Trigger➛MailTrax Record➛Route to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.assigned_to","label":"Trigger➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"Created_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.assigned_to","label":"2➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"f44c191c-c5f7-46a2-a383-593746165536.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5dbf9c3-c29a-4a3e-93d4-b60e40c0f179.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_requested_for.manager","label":"Trigger➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Updated_1.current.u_requested_for","label":"Trigger➛MailTrax Record➛Requested by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_requested_for"},{"name":"3eefc8e7-da08-4a42-8268-a1815b94b153.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.table_name","label":"2➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record","label":"2➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eed090ff-e7a4-426b-9323-113de3592754.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eed090ff-e7a4-426b-9323-113de3592754.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.assigned_to","label":"Trigger➛MailTrax Record➛Route to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"assigned_to"},{"name":"9cbd8a07-ce0b-4414-a519-74cd5202489e.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.assigned_to.manager","label":"2➛MailTrax Record➛Route to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"61171c98-a334-4e99-9d53-0f2af95ecc07.record","label":"5.1➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61171c98-a334-4e99-9d53-0f2af95ecc07.table_name","label":"5.1➛MailTrax Table","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_requested_for.manager","label":"2➛MailTrax Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.current","label":"Trigger➛MailTrax Record","reference":"x_522137_mailtrax_mailtrax","reference_display":"MailTrax","type":"reference","base_type":"reference","attributes":{}},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.u_route_to_date","label":"2➛MailTrax Record➛Route to date","reference":"","reference_display":"Route to date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"u_route_to_date"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"b4dd641b-4a61-447e-a2ed-413b25961df2.record.opened_at","label":"2➛MailTrax Record➛Routed to date","reference":"","reference_display":"Routed to date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_522137_mailtrax_mailtrax","column_name":"opened_at"},{"name":"ddb79b06-f18b-4659-944b-f4bf48ee237e.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ddb79b06-f18b-4659-944b-f4bf48ee237e.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot>19f72bdc2f062010a54a821df699b687</latest_snapshot>
         <master_snapshot>bff227d82f062010a54a821df699b602</master_snapshot>
         <name>MailTrax  New Letter Approval</name>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-13 18:12:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7cc446772f212010a54a821df699b67f</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name>MailTrax  New Letter Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_hub_flow_7cc446772f212010a54a821df699b67f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:55</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7cc446772f212010a54a821df699b67f"/>
@@ -72,26 +72,26 @@
         <sys_updated_on>2021-01-28 00:54:53</sys_updated_on>
         <table>x_522137_mailtrax_mailtrax</table>
     </sys_flow_record_trigger>
-    <sys_hub_flow_component action="delete_multiple" query="flow=7cc446772f212010a54a821df699b67f^sys_idNOT IN108ac2fb2f212010a54a821df699b62d,12d35de42f316010a54a821df699b64f,265549762fb12010a54a821df699b6c6,27281da82f316010a54a821df699b693,55ead92c2f316010a54a821df699b60c,61f64c9c2fb12010a54a821df699b67a,6c990b142fc22010a54a821df699b6e6,9dead92c2f316010a54a821df699b609,f0990b142fc22010a54a821df699b6f2"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=7cc446772f212010a54a821df699b67f^sys_idNOT IN108ac2fb2f212010a54a821df699b62d,12d35de42f316010a54a821df699b64f,265549762fb12010a54a821df699b6c6,27281da82f316010a54a821df699b693,42bd28342f062010a54a821df699b6f9,55ead92c2f316010a54a821df699b60c,61f64c9c2fb12010a54a821df699b67a,6c990b142fc22010a54a821df699b6e6,9dead92c2f316010a54a821df699b609,f0990b142fc22010a54a821df699b6f2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
         <action_type_parent/>
-        <comment>Set State to Awaiting Approval.  Set Approval to Requested</comment>
+        <comment>Set When Needed to value output from Increment Days Action.  Set State to Awaiting Approval.  Set Approval to Requested</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-13 18:37:18</sys_created_on>
         <sys_id>108ac2fb2f212010a54a821df699b62d</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>164</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
         <ui_id>b4dd641b-4a61-447e-a2ed-413b25961df2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=108ac2fb2f212010a54a821df699b62d"/>
@@ -131,10 +131,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-28 00:33:14</sys_created_on>
         <sys_id>66322b982f062010a54a821df699b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:33:14</sys_updated_on>
-        <value>state=3^approval=requested</value>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
+        <value/>
         <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -206,11 +206,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-28 00:33:14</sys_created_on>
         <sys_id>e2322b982f062010a54a821df699b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:33:14</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value/>
+        <value>state=3^approval=requested^u_when_needed={{4d15d8db-a809-45cb-bcbb-7c9e8d6f8e78.updated_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
@@ -236,7 +236,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -244,10 +244,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 22:33:56</sys_created_on>
         <sys_id>12d35de42f316010a54a821df699b64f</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -301,16 +301,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>2</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-22 21:16:56</sys_created_on>
         <sys_id>265549762fb12010a54a821df699b6c6</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>16a07b63-95be-41dc-94d2-75af9121db72</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=265549762fb12010a54a821df699b6c6"/>
@@ -374,16 +374,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>4.1</order>
+        <order>5.1</order>
         <parent_ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 22:52:52</sys_created_on>
         <sys_id>27281da82f316010a54a821df699b693</sys_id>
-        <sys_mod_count>110</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>61171c98-a334-4e99-9d53-0f2af95ecc07</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27281da82f316010a54a821df699b693"/>
@@ -516,6 +516,55 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Increment Days">319c18382fc22010a54a821df699b64f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>42bd28342f062010a54a821df699b6f9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
+        <ui_id>4d15d8db-a809-45cb-bcbb-7c9e8d6f8e78</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=42bd28342f062010a54a821df699b6f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42bd28342f062010a54a821df699b6f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>82bd28342f062010a54a821df699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 00:41:32</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">2c0964702f062010a54a821df699b642</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42bd28342f062010a54a821df699b6f9</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>8ebd28342f062010a54a821df699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 00:41:32</sys_updated_on>
+        <value>090eecae0a0a0b260077e1dfa71da828</value>
+        <variable display_value="">921420bc2fc22010a54a821df699b625</variable>
+    </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">9dead92c2f316010a54a821df699b60b</block>
         <comment/>
@@ -527,7 +576,7 @@
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -535,10 +584,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 23:04:43</sys_created_on>
         <sys_id>55ead92c2f316010a54a821df699b60c</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -553,16 +602,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-14 22:19:32</sys_created_on>
         <sys_id>61f64c9c2fb12010a54a821df699b67a</sys_id>
-        <sys_mod_count>140</sys_mod_count>
+        <sys_mod_count>156</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>f44c191c-c5f7-46a2-a383-593746165536</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=61f64c9c2fb12010a54a821df699b67a"/>
@@ -832,16 +881,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>4.2</order>
+        <order>5.2</order>
         <parent_ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:45:30</sys_created_on>
         <sys_id>6c990b142fc22010a54a821df699b6e6</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>43980bd3-5b40-4baf-8624-81660b5e7828</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6c990b142fc22010a54a821df699b6e6"/>
@@ -955,16 +1004,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>5.1</order>
+        <order>6.1</order>
         <parent_ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 23:04:43</sys_created_on>
         <sys_id>9dead92c2f316010a54a821df699b609</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>124</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>61d69075-4aa1-4732-a650-bdef564f4e90</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9dead92c2f316010a54a821df699b609"/>
@@ -1106,16 +1155,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>5.2</order>
+        <order>6.2</order>
         <parent_ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:45:31</sys_created_on>
         <sys_id>f0990b142fc22010a54a821df699b6f2</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>663d7947-ed52-4999-ba69-40fb58f4d693</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f0990b142fc22010a54a821df699b6f2"/>
@@ -1230,10 +1279,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-19 20:59:10</sys_created_on>
         <sys_id>cd84ad7d2f712010a54a821df699b63e</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1299,7 +1348,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1357,14 +1406,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-13 18:37:17</sys_created_on>
         <sys_id>148ac2fb2f212010a54a821df699b621</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 00:41:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1380,7 +1429,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1438,14 +1487,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-13 18:37:17</sys_created_on>
         <sys_id>5c8ac2fb2f212010a54a821df699b614</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 00:41:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1461,7 +1510,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDdf276f9ce6062010a9ea523dd0f37e33,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2778b87c620620108a6220bc7e585f43,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1519,14 +1568,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-19 20:59:10</sys_created_on>
         <sys_id>8184617d2f712010a54a821df699b60b</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1538,26 +1587,26 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=7cc446772f212010a54a821df699b67f^sys_idNOT IN108ac2fb2f212010a54a821df699b62d,265549762fb12010a54a821df699b6c6,27281da82f316010a54a821df699b693,61f64c9c2fb12010a54a821df699b67a,6c990b142fc22010a54a821df699b6e6,9dead92c2f316010a54a821df699b609,f0990b142fc22010a54a821df699b6f2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7cc446772f212010a54a821df699b67f^sys_idNOT IN108ac2fb2f212010a54a821df699b62d,265549762fb12010a54a821df699b6c6,27281da82f316010a54a821df699b693,42bd28342f062010a54a821df699b6f9,61f64c9c2fb12010a54a821df699b67a,6c990b142fc22010a54a821df699b6e6,9dead92c2f316010a54a821df699b609,f0990b142fc22010a54a821df699b6f2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
         <action_type_parent/>
-        <comment>Set State to Awaiting Approval.  Set Approval to Requested</comment>
+        <comment>Set When Needed to value output from Increment Days Action.  Set State to Awaiting Approval.  Set Approval to Requested</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-13 18:37:18</sys_created_on>
         <sys_id>108ac2fb2f212010a54a821df699b62d</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>164</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
         <ui_id>b4dd641b-4a61-447e-a2ed-413b25961df2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=108ac2fb2f212010a54a821df699b62d"/>
@@ -1597,10 +1646,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-28 00:33:14</sys_created_on>
         <sys_id>66322b982f062010a54a821df699b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:33:14</sys_updated_on>
-        <value>state=3^approval=requested</value>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
+        <value/>
         <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1672,11 +1721,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-28 00:33:14</sys_created_on>
         <sys_id>e2322b982f062010a54a821df699b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:33:14</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value/>
+        <value>state=3^approval=requested^u_when_needed={{4d15d8db-a809-45cb-bcbb-7c9e8d6f8e78.updated_time}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
@@ -1713,16 +1762,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>2</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-22 21:16:56</sys_created_on>
         <sys_id>265549762fb12010a54a821df699b6c6</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>16a07b63-95be-41dc-94d2-75af9121db72</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=265549762fb12010a54a821df699b6c6"/>
@@ -1786,16 +1835,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>4.1</order>
+        <order>5.1</order>
         <parent_ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 22:52:52</sys_created_on>
         <sys_id>27281da82f316010a54a821df699b693</sys_id>
-        <sys_mod_count>110</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>61171c98-a334-4e99-9d53-0f2af95ecc07</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27281da82f316010a54a821df699b693"/>
@@ -1930,6 +1979,69 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_type display_value="Increment Days">319c18382fc22010a54a821df699b64f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>42bd28342f062010a54a821df699b6f9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:28:36</sys_updated_on>
+        <ui_id>4d15d8db-a809-45cb-bcbb-7c9e8d6f8e78</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=42bd28342f062010a54a821df699b6f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42bd28342f062010a54a821df699b6f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>82bd28342f062010a54a821df699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 00:41:32</sys_updated_on>
+        <value>5</value>
+        <variable display_value="">2c0964702f062010a54a821df699b642</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42bd28342f062010a54a821df699b6f9</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>8ebd28342f062010a54a821df699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 00:41:32</sys_updated_on>
+        <value>090eecae0a0a0b260077e1dfa71da828</value>
+        <variable display_value="">921420bc2fc22010a54a821df699b625</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=42bd28342f062010a54a821df699b6f9^sys_idNOT IN4abd28342f062010a54a821df699b6fa"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>starttime</input_name>
+        <instance>42bd28342f062010a54a821df699b6f9</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"starttime":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar routedToDate \u003d fd_data.trigger.current.opened_at;\nreturn routedToDate;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 00:41:32</sys_created_on>
+        <sys_id>4abd28342f062010a54a821df699b6fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 01:20:23</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type>
         <action_type_parent/>
@@ -1937,16 +2049,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-14 22:19:32</sys_created_on>
         <sys_id>61f64c9c2fb12010a54a821df699b67a</sys_id>
-        <sys_mod_count>140</sys_mod_count>
+        <sys_mod_count>156</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>f44c191c-c5f7-46a2-a383-593746165536</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=61f64c9c2fb12010a54a821df699b67a"/>
@@ -2216,16 +2328,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>4.2</order>
+        <order>5.2</order>
         <parent_ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:45:30</sys_created_on>
         <sys_id>6c990b142fc22010a54a821df699b6e6</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>43980bd3-5b40-4baf-8624-81660b5e7828</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6c990b142fc22010a54a821df699b6e6"/>
@@ -2339,16 +2451,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>5.1</order>
+        <order>6.1</order>
         <parent_ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 23:04:43</sys_created_on>
         <sys_id>9dead92c2f316010a54a821df699b609</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>124</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>61d69075-4aa1-4732-a650-bdef564f4e90</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9dead92c2f316010a54a821df699b609"/>
@@ -2490,16 +2602,16 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
-        <order>5.2</order>
+        <order>6.2</order>
         <parent_ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:45:31</sys_created_on>
         <sys_id>f0990b142fc22010a54a821df699b6f2</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>663d7947-ed52-4999-ba69-40fb58f4d693</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f0990b142fc22010a54a821df699b6f2"/>
@@ -2617,7 +2729,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2625,10 +2737,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 22:33:56</sys_created_on>
         <sys_id>12d35de42f316010a54a821df699b64f</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>7f740eed-f292-4bc5-99ce-e20d2f78b6ed</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2684,7 +2796,7 @@
         <flow display_value="MailTrax  New Letter Approval">7cc446772f212010a54a821df699b67f</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2692,10 +2804,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-15 23:04:43</sys_created_on>
         <sys_id>55ead92c2f316010a54a821df699b60c</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 00:54:54</sys_updated_on>
+        <sys_updated_on>2021-01-29 01:28:37</sys_updated_on>
         <ui_id>24652218-ba69-47a4-b9ca-9c62e7be9a64</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
