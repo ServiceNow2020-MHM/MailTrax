@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Division</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_522137_mailtrax_division</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 20:41:09</sys_created_on>
+        <sys_id>e59cb3cd2f522010a54a821df699b68f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Division</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_db_object_e59cb3cd2f522010a54a821df699b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 23:19:33</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_522137_mailtrax.division_user" name="x_522137_mailtrax.division_user">55fc73452f922010a54a821df699b645</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_db_object_e59cb3cd2f522010a54a821df699b68f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Division</label><live_feed_enabled>false</live_feed_enabled><name>x_522137_mailtrax_division</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 20:41:09</sys_created_on><sys_id>e59cb3cd2f522010a54a821df699b68f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Division</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_db_object_e59cb3cd2f522010a54a821df699b68f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 23:19:33</sys_updated_on><update_access>true</update_access><user_role display_value="x_522137_mailtrax.division_user" name="x_522137_mailtrax.division_user">55fc73452f922010a54a821df699b645</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1926904413</payload_hash>
+        <record_name>Division</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 23:19:33</sys_created_on>
+        <sys_id>3d31ecd52f162010a54a821df699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177936480720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 23:19:33</sys_updated_on>
+        <type>Table</type>
+        <update_guid>3531ecd54b162010d297d44da97465be</update_guid>
+        <update_guid_history>3531ecd54b162010d297d44da97465be:-1926904413,46fcf785f092201058dfac3be2360e0a:1061269137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 23:08:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>145ad9d77dd946bc847d762919d6ae64</sys_id>
+        <sys_metadata>e59cb3cd2f522010a54a821df699b68f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Division</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_db_object_e59cb3cd2f522010a54a821df699b68f</sys_update_name>
+        <sys_update_version display_value="sys_db_object_e59cb3cd2f522010a54a821df699b68f">3d31ecd52f162010a54a821df699b6be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 23:08:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

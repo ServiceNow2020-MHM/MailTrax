@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="12" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="no response required" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
                 <element inactive_on_update="false" label="Review and Respond" value="review and respond"/>

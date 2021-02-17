@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_522137_mailtrax.MTXClientUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MTXClientUtil</name>
+        <script><![CDATA[var MTXClientUtil = Class.create();
+MTXClientUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	getUserInfo : function() {
+		var usr = this.getParameter('sysparm_user');
+		var obj = {};
+		var gr = new GlideRecord('sys_user');
+		gr.addQuery('sys_id', usr);
+		gr.query();
+		if(gr.next()) {
+			obj.phone = gr.phone.toString();
+			obj.email = gr.email.toString();
+			obj.mobile_phone = gr.mobile_phone.toString();
+			obj.department = gr.department.sys_id.toString();
+			obj.manager = gr.manager.sys_id.toString();
+			obj.u_division = gr.u_division.sys_id.toString();
+			obj.u_office = gr.u_office.sys_id.toString();
+		}
+		var json = new JSON();
+		var data = json.encode(obj);
+		return data;
+	},
+	type: 'MTXClientUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 23:03:39</sys_created_on>
+        <sys_id>26fb823a2fd22010a54a821df699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MTXClientUtil</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_include_26fb823a2fd22010a54a821df699b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 23:03:39</sys_updated_on>
+    </sys_script_include>
+</record_update>
