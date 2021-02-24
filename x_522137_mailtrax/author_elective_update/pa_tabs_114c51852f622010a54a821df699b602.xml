@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>MailTrax Dashboard - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-23 19:14:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>114c51852f622010a54a821df699b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Dashboard - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>pa_tabs_114c51852f622010a54a821df699b602</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-23 19:14:47</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>pa_tabs_114c51852f622010a54a821df699b602</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>MailTrax Dashboard - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-23 19:14:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>114c51852f622010a54a821df699b602</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MailTrax Dashboard - New Tab 2</sys_name><sys_overrides/><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>pa_tabs_114c51852f622010a54a821df699b602</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-23 19:14:47</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>-2058715058</payload_hash>
+        <record_name>MailTrax Dashboard - New Tab 2</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-23 19:14:57</sys_created_on>
+        <sys_id>a34c55492f622010a54a821df699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177d050e1720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-23 19:14:57</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>594c55494d6220108685ab672f1dea24</update_guid>
+        <update_guid_history>594c55494d6220108685ab672f1dea24:2135971408,594c55494d6220108685ab672f1dea24:2135971408,594c55494d6220108685ab672f1dea24:2135971408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MailTrax Dashboard - New Tab 2">e34c55492f622010a54a821df699b6c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-23 19:14:57</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>3288713cd6d54146ada401f93b96a9b9</sys_id>
+        <sys_metadata>114c51852f622010a54a821df699b602</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MailTrax Dashboard - New Tab 2</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>pa_tabs_114c51852f622010a54a821df699b602</sys_update_name>
+        <sys_update_version display_value="pa_tabs_114c51852f622010a54a821df699b602">a34c55492f622010a54a821df699b6c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-23 19:14:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

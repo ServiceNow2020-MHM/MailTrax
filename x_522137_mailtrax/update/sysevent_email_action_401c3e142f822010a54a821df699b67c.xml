@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
         <collection>x_522137_mailtrax_mailtrax</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -14,9 +14,9 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+        <digest_separator_html><![CDATA[<p><br /></p>
 <hr />
-<p>&nbsp;</p>]]></digest_separator_html>
+<p><br /></p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
@@ -46,11 +46,11 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to,u_requested_for</recipient_fields>
+        <recipient_fields>u_requested_for</recipient_fields>
         <recipient_groups/>
         <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>Approval Request is Not Approved:  ${number}</subject>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>401c3e142f822010a54a821df699b67c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>MTX Reject Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sysevent_email_action_401c3e142f822010a54a821df699b67c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:56:16</sys_updated_on>
+        <sys_updated_on>2021-02-05 20:50:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

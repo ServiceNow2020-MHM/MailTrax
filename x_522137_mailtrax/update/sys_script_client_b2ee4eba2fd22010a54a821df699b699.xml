@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the MTXClientUtil Script Include to retrieve the user info from the sys_user database when the form loads.</description>
+        <field>u_action_requested</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set User Info</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var user_id = g_form.userID; //Get current user ID
+	var ga = new GlideAjax('global.MTXClientUtil');
+	ga.addParam('sysparm_name', 'getUserInfo');
+	ga.addParam('sysparm_user', g_form.getValue(user_id));
+	ga.getXML(processAnswer);
+}
+function processAnswer (response)  {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var obj = JSON.parse(answer);
+	g_form.setValue('u_department', obj.department);
+	g_form.setValue('u_division', obj.u_division);
+	g_form.setValue('u_office', obj.u_office);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 23:19:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2ee4eba2fd22010a54a821df699b699</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Set User Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_client_b2ee4eba2fd22010a54a821df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-20 01:53:40</sys_updated_on>
+        <table>x_522137_mailtrax_mailtrax</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

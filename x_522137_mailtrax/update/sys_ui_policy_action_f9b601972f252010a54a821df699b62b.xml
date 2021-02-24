@@ -3,19 +3,19 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_when_needed</field>
-        <mandatory>false</mandatory>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-12 00:26:16</sys_created_on>
         <sys_id>f9b601972f252010a54a821df699b62b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>u_when_needed</sys_name>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_ui_policy_action_f9b601972f252010a54a821df699b62b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-29 00:55:19</sys_updated_on>
+        <sys_updated_on>2021-02-19 23:52:58</sys_updated_on>
         <table>x_522137_mailtrax_mailtrax</table>
         <ui_policy display_value="MailTrax show or hide When needed field">8af589172f252010a54a821df699b679</ui_policy>
         <visible>true</visible>

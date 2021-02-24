@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_522137_mailtrax.GetUserInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return Sys_User information. The calling client-side script passes a sys_id for a Sys_User table record.</description>
+        <name>GetUserInfo</name>
+        <script><![CDATA[var GetUserInfo = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getcompany function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_mailingname passed from the client side to retrieve a record from the Mailing List table.
+    // Return the company/department for the requested record
+    getinfo: function() {
+        var userRecord = new GlideRecord('sys_user');
+        userRecord.get(this.getParameter('u_division'));
+        return userRecord.u_division;
+    },
+    type: 'GetUserInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 21:12:44</sys_created_on>
+        <sys_id>e66239b22f922010a54a821df699b623</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetUserInfo</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_include_e66239b22f922010a54a821df699b623</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 21:17:40</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_script_include_e66239b22f922010a54a821df699b623</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_522137_mailtrax.GetUserInfo&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Script Include to return Sys_User information. The calling client-side script passes a sys_id for a Sys_User table record.&lt;/description&gt;&lt;name&gt;GetUserInfo&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetUserInfo = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getcompany function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_mailingname passed from the client side to retrieve a record from the Mailing List table.
+    // Return the company/department for the requested record
+    getinfo: function() {
+        var userRecord = new GlideRecord('sys_user');
+        userRecord.get(this.getParameter('u_division'));
+        return userRecord.u_division;
+    },
+    type: 'GetUserInfo'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-16 21:12:44&lt;/sys_created_on&gt;&lt;sys_id&gt;e66239b22f922010a54a821df699b623&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetUserInfo&lt;/sys_name&gt;&lt;sys_package display_value="MailTrax" source="x_522137_mailtrax"&gt;add2772e2f112010a54a821df699b60b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MailTrax"&gt;add2772e2f112010a54a821df699b60b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e66239b22f922010a54a821df699b623&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-16 21:17:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2093053764</payload_hash>
+        <record_name>GetUserInfo</record_name>
+        <reverted_from/>
+        <source>f2abd1f52f712010a54a821df699b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 21:17:40</sys_created_on>
+        <sys_id>814531762f922010a54a821df699b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177acb4b8460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 21:17:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>cd4535f209922010466ef71763a1a597</update_guid>
+        <update_guid_history>cd4535f209922010466ef71763a1a597:-2093053764,f254f13698922010715ab7dc093b5db5:-1331860963,fc2471f253922010105a9be3e8130738:178137709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 21:18:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>01f2980c8aff44e8808f45843743fa44</sys_id>
+        <sys_metadata>e66239b22f922010a54a821df699b623</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetUserInfo</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_script_include_e66239b22f922010a54a821df699b623</sys_update_name>
+        <sys_update_version display_value="sys_script_include_e66239b22f922010a54a821df699b623">814531762f922010a54a821df699b66f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 21:18:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

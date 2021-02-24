@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_522137_mailtrax_division" table="sys_user" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_522137_mailtrax_division</element>
+            <name>sys_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 19:13:18</sys_created_on>
+            <sys_id>e04fda782f522010a54a821df699b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_522137_mailtrax_division</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_choice_sys_user_x_522137_mailtrax_division</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 19:13:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_522137_mailtrax_division</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Administration</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 19:13:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>684fda782f522010a54a821df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 19:13:18</sys_updated_on>
+            <value>Administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_522137_mailtrax_division</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airports</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 19:15:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a6f9e782f522010a54a821df699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 19:15:45</sys_updated_on>
+            <value>Airports</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_522137_mailtrax_division</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Harbors</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 19:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46df1a782f522010a54a821df699b668</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 19:16:05</sys_updated_on>
+            <value>Harbors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_522137_mailtrax_division</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Highways</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 19:27:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ef16f42f522010a54a821df699b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 19:27:16</sys_updated_on>
+            <value>Highways</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
