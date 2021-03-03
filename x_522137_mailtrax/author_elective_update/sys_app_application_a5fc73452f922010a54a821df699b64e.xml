@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Division</name>
+        <order>100</order>
+        <roles>x_522137_mailtrax.division_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 20:41:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5fc73452f922010a54a821df699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Division</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_app_application_a5fc73452f922010a54a821df699b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 20:41:09</sys_updated_on>
+        <title>Division</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_app_application_a5fc73452f922010a54a821df699b64e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Division</name><order>100</order><roles>x_522137_mailtrax.division_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 20:41:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a5fc73452f922010a54a821df699b64e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Division</sys_name><sys_overrides/><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_app_application_a5fc73452f922010a54a821df699b64e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 20:41:09</sys_updated_on><title>Division</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1219698530</payload_hash>
+        <record_name>Division</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 20:41:09</sys_created_on>
+        <sys_id>69fcb7852f922010a54a821df699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17792d37cc90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 20:41:09</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>a1fcb7855892201087a234114cc00ba5</update_guid>
+        <update_guid_history>a1fcb7855892201087a234114cc00ba5:1219698530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Division">ae802eba2f162010a54a821df699b6d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 00:26:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>6b3ab0c07b004009b978e096b1717281</sys_id>
+        <sys_metadata>a5fc73452f922010a54a821df699b64e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Division</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_app_application_a5fc73452f922010a54a821df699b64e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_a5fc73452f922010a54a821df699b64e">69fcb7852f922010a54a821df699b6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 00:26:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
