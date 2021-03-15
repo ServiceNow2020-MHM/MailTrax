@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_522137_mailtrax_mailtrax</collection>
+        <condition table="x_522137_mailtrax_mailtrax">u_request_type=no_response_required^EQ<item display_value="No Response Required" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="no_response_required"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Notification of mail with no response necessary.</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alm_transfer_order_line_subtask.escalati</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Dear ${assigned_to.first_name},</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">A new MailTrax Notification has been sent to you:</span></p>
+<ul style="list-style-position: inside;">
+<li style="font-size: 12pt; font-family: 'courier new', courier;"><span style="font-size: 12pt;">Request type: ${u_request_type}</span></li>
+<li style="font-size: 12pt; font-family: 'courier new', courier;"><span style="font-size: 12pt;">Action requested: ${u_action_requested}</span></li>
+</ul>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">This notification is for your information only; <span style="text-decoration: underline;">no response is necessary</span>.</span></p>
+<p><br /></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Thank You,</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">${u_requested_for.first_name}</span></p>
+<p><br /></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;">--------------------------------------------------------------------------</span></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;"><strong><span style="text-decoration: underline;">Correspondence Information:</span></strong></span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">MailTrax Log number: ${number}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correspondence date: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${u_letter_date}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Originator (from): &nbsp; ${u_letter_from}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originator's company/department: ${u_originator_company}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Addressed to: ${u_addressed_to}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Subject: &nbsp; &nbsp; &nbsp;${u_letter_subject}</span></p>
+<p><br /></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Click here to view the MailTrax record: ${URI_REF}</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>MTX No Response Required</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to,u_requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>MailTrax Notification:  ${u_action_requested}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-12 22:13:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64c66dee2fb22010a54a821df699b6b0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>MTX No Response Required</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sysevent_email_action_64c66dee2fb22010a54a821df699b6b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-13 01:35:36</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

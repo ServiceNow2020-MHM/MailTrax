@@ -10,7 +10,7 @@
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description/>
+        <description>New Letter Approval Request has been rejected notification.</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -35,20 +35,20 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${u_requested_for.first_name},</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Your letter draft has NOT been approved.&nbsp; </span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Click here to view my comments in the MailTrax record: ${URI_REF}: &nbsp;&nbsp;</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Regards,</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">${assigned_to.first_name}</span></p>]]></message_html>
+        <message_html><![CDATA[<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Dear ${u_requested_for.first_name},</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">&nbsp; &nbsp; &nbsp;Your letter draft has <span style="text-decoration: underline;"><strong>NOT</strong></span> been approved.&nbsp; </span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">&nbsp; &nbsp; &nbsp;Click here to view my comments in the MailTrax record: ${URI_REF}: &nbsp;&nbsp;</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Regards,</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">${assigned_to.first_name}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>MTX Reject Notification</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>u_requested_for</recipient_fields>
+        <recipient_fields>u_requested_for,assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>false</send_self>
         <sms_alternate/>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>401c3e142f822010a54a821df699b67c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>MTX Reject Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sysevent_email_action_401c3e142f822010a54a821df699b67c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-05 20:50:12</sys_updated_on>
+        <sys_updated_on>2021-03-13 01:39:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

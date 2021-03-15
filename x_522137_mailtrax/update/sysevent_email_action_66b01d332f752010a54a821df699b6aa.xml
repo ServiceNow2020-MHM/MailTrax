@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_522137_mailtrax_mailtrax</collection>
-        <condition table="x_522137_mailtrax_mailtrax">u_request_type=no_due_date^ORu_request_type=no_response_required^ORu_request_type=response_requested^EQ<item display_value="No Due Date - Respond ASAP" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="no_due_date"/>
-            <item display_value="No Response Required" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="true" value="no_response_required"/>
-            <item display_value="Response Requested" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="true" value="response_requested"/>
+        <condition table="x_522137_mailtrax_mailtrax">u_request_type=no_due_date^EQ<item display_value="No Due Date - Respond ASAP" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="no_due_date"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description/>
+        <description>Notification with action request and no due date.</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -32,37 +30,43 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>triggered</generation_type>
         <importance/>
-        <include_attachments>false</include_attachments>
+        <include_attachments>true</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">Dear ${assigned_to.first_name},</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">A new MailTrax action request has been sent to you:</span></p>
+        <message_html><![CDATA[<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Dear ${assigned_to.first_name},</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">A new MailTrax Notification has been sent to you:</span></p>
 <ul style="list-style-position: inside;">
-<li><span style="font-size: 10pt; font-family: helvetica;">Request type: ${u_request_type}</span></li>
-<li><span style="font-size: 10pt; font-family: helvetica;">Action requested: ${u_action_requested}</span></li>
+<li style="font-size: 12pt;"><span style="font-size: 12pt; font-family: 'courier new', courier;">Request type: &nbsp; &nbsp; ${u_request_type}</span></li>
+<li style="font-size: 12pt;"><span style="font-size: 12pt; font-family: 'courier new', courier;">Action requested: ${u_action_requested}</span></li>
 </ul>
-<p><span style="font-size: 10pt; font-family: helvetica;">Please complete this request as soon as possible.&nbsp; Click here to view the MailTrax record: ${URI_REF}. </span></p>
-<p><span style="font-size: 10pt; font-family: helvetica;">---------------------------------------------------------------------------------------------------------------------</span></p>
-<p><span style="font-size: 10pt; font-family: helvetica;"><strong><span style="text-decoration: underline;">Correspondence Information:</span></strong></span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">MailTrax Log number: ${number}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Correspondence date: ${u_letter_date}</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Originator (from): ${u_letter_from}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originator's company/department: ${u_originator_company}</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Letter Addressed to: ${u_addressed_to}</span></p>
-<p><span style="font-family: helvetica; font-size: 10pt;">Letter Subject: ${u_letter_subject}</span></p>]]></message_html>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;">Although there is no due date, please complete this request as soon as possible.</span></p>
+<p><br /></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Thank You,</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">${u_requested_for.first_name}</span></p>
+<p><br /></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;">--------------------------------------------------------------------------</span></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;"><strong><span style="text-decoration: underline;">Correspondence Information:</span></strong></span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">MailTrax Log number: ${number}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Correspondence date: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${u_letter_date}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Originator (from): &nbsp; ${u_letter_from}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originator's company/department: ${u_originator_company}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Addressed to: ${u_addressed_to}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Subject: &nbsp; &nbsp; &nbsp;${u_letter_subject}</span></p>
+<p><br /></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Click here to view the MailTrax record: ${URI_REF}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>MailTrax Correspondence Action</name>
+        <name>MTX No Due Date</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_fields>assigned_to,u_requested_for</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>MailTrax Notification:  ${u_action_requested}</subject>
@@ -73,15 +77,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66b01d332f752010a54a821df699b6aa</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>MailTrax Correspondence Action</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>MTX No Due Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sysevent_email_action_66b01d332f752010a54a821df699b6aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-05 20:53:16</sys_updated_on>
+        <sys_updated_on>2021-03-13 01:33:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

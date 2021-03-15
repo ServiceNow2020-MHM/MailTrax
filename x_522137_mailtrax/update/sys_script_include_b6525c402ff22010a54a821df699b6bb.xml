@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_522137_mailtrax.MailTraxOfficeInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MailTraxOfficeInfo</name>
+        <script><![CDATA[var MailTraxOfficeInfo = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+MailTraxOfficeInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getUserInfo function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_user passed from the client side to retrieve a record user table.
+    // Return the division for the requested record
+    getUserInfo: function() {
+        var grUser = new GlideRecord('sys_user');
+        grUser.get(this.getParameter('sysparm_user'));
+        return grUser.u_office;
+    },
+    type: 'MailTraxOfficeInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 21:38:01</sys_created_on>
+        <sys_id>b6525c402ff22010a54a821df699b6bb</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>MailTraxOfficeInfo</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_include_b6525c402ff22010a54a821df699b6bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 23:19:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -10,7 +10,7 @@
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description>Used by Flow Designer</description>
+        <description>Notification with an action request and a due date.</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -30,18 +30,29 @@
         <from/>
         <generation_type>triggered</generation_type>
         <importance/>
-        <include_attachments>false</include_attachments>
+        <include_attachments>true</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${assigned_to.first_name},</p>
-<p>A new action request has been sent to you regarding the following correspondence:</p>
-<p>MailTrax Log number: ${number}:</p>
-<p>Letter Addressed to: ${u_addressed_to}</p>
-<p>Letter Subject: ${u_letter_subject}</p>
-<p>Please complete this request by the due date:&nbsp; ${u_when_needed}</p>
-<p><br />Click here to view the MailTrax record: ${URI_REF}.</p>]]></message_html>
+        <message_html><![CDATA[<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Dear ${assigned_to.first_name},</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">A new MailTrax Correspondence Record has been created.&nbsp; This notification has been sent requesting you to complete the Action Requested shown below:</span></p>
+<ul style="list-style-position: inside;">
+<li style="font-size: 12pt; font-family: 'courier new', courier;"><span style="font-size: 12pt;">Request Type: &nbsp; &nbsp; ${u_request_type}</span></li>
+<li style="font-size: 12pt; font-family: 'courier new', courier;"><span style="font-size: 12pt;">Action Requested: ${u_action_requested}</span></li>
+</ul>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;">Please complete this request by the <span style="color: #ff0000;"><strong>Due Date: ${u_when_needed}.</strong></span></span></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier; color: #000000;">Thank You,</span></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier; color: #000000;">${u_requested_for.first_name}<br /></span></p>
+<p><br /></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;">--------------------------------------------------------------------------</span></p>
+<p><span style="font-size: 12pt; font-family: 'courier new', courier;"><strong><span style="text-decoration: underline;">Correspondence Information:</span></strong></span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">MailTrax Log number: ${number}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Correspondence date: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${u_letter_date}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Originator (from): &nbsp; ${u_letter_from}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Originator's company/department: ${u_originator_company}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Addressed to: ${u_addressed_to}</span></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Letter Subject: &nbsp; &nbsp; &nbsp;${u_letter_subject}</span></p>
+<p><br /></p>
+<p><span style="font-family: 'courier new', courier; font-size: 12pt;">Click here to view the MailTrax record: ${URI_REF}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>MTX Action Requested</name>
@@ -50,12 +61,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to,u_requested_for</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Action Requested: ${u_action_requested}</subject>
+        <subject>MailTrax Action Requested: ${u_action_requested}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -63,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6303c6492fe22010a54a821df699b6d1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>MTX Action Requested</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -71,7 +82,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sysevent_email_action_6303c6492fe22010a54a821df699b6d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-23 23:47:41</sys_updated_on>
+        <sys_updated_on>2021-03-13 01:35:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
