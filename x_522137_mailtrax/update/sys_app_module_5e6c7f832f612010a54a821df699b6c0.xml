@@ -4,7 +4,7 @@
         <application display_value="MailTrax">f11968b22fd12010a54a821df699b6d3</application>
         <assessment/>
         <device_type/>
-        <filter table="x_522137_mailtrax_mailtrax">u_govref_numberISEMPTY^EQ<item endquery="false" field="u_govref_number" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+        <filter table="x_522137_mailtrax_mailtrax">u_correspondence_ind=true^EQ<item endquery="false" field="u_correspondence_ind" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e6c7f832f612010a54a821df699b6c0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>All Correspondence</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_app_module_5e6c7f832f612010a54a821df699b6c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-11 20:33:42</sys_updated_on>
+        <sys_updated_on>2021-03-17 18:49:20</sys_updated_on>
         <timeline_page/>
         <title>All Correspondence</title>
         <uncancelable>false</uncancelable>

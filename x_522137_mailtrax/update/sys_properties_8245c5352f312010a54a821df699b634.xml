@@ -11,16 +11,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-19 18:42:43</sys_created_on>
         <sys_id>8245c5352f312010a54a821df699b634</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>glide.ui.x_522137_mailtrax_mailtrax_activity.fields</sys_name>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_properties_8245c5352f312010a54a821df699b634</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-10 23:19:55</sys_updated_on>
+        <sys_updated_on>2021-03-15 21:14:55</sys_updated_on>
         <type>string</type>
-        <value>u_letter_from,u_request_type,u_action_requested,assigned_to,state,u_when_needed,approval,comments</value>
+        <value>u_letter_from,u_request_type,u_action_requested,assigned_to,state,u_when_needed,approval,comments,*Email*</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=8245c5352f312010a54a821df699b634"/>
