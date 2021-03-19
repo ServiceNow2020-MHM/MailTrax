@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="5" type="collection">
+    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="11" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
                 <element inactive_on_update="false" label="Review and Respond" value="review and respond"/>
+                <element inactive_on_update="false" label="Review and Respond (Resubmittal)" value="review and respond (resubmittal)"/>
                 <element inactive_on_update="false" label="Appropriate Attention &amp; Action" sequence="0" value="appropriate attention &amp; action"/>
                 <element inactive="true" inactive_on_update="true" label="Final Reply for Governor's Signature" sequence="0" value="final reply for governor's signature"/>
                 <element inactive_on_update="false" label="Arrange Meeting" sequence="1" value="arrange meeting"/>
@@ -27,7 +28,7 @@
         </element>
         <element attributes="encode_utf8=false" label="Addressed to" max_length="32" name="u_addressed_to" reference="x_522137_mailtrax_mailing_list" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="string"/>
-        <element default="true" label="Correspondence" max_length="40" name="u_correspondence_ind" type="boolean"/>
+        <element label="Correspondence" max_length="40" name="u_correspondence_ind" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Date received from Division" max_length="40" name="u_date_rec_from_div" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned from GOV" max_length="40" name="u_date_ret_from_gov" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned to Division" max_length="40" name="u_date_ret_to_div" type="glide_date"/>
@@ -47,7 +48,7 @@
         <element attributes="encode_utf8=false" label="From company" max_length="32" name="u_from_company" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Document(s) mailed date" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Governor Referral number" max_length="40" name="u_govref_number" type="string"/>
-        <element default="true" label="Governor Referral" max_length="40" name="u_gov_ref_ind" type="boolean"/>
+        <element label="Governor Referral" max_length="40" name="u_gov_ref_ind" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Correspondence date" max_length="40" name="u_letter_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Originator (from)" max_length="32" name="u_letter_from" reference="x_522137_mailtrax_mailing_list" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="DOT letter number" max_length="40" name="u_letter_number" type="string"/>
