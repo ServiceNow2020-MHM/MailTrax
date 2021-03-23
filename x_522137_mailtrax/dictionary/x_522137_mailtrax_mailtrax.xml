@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="11" type="collection">
+    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="16" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
-                <element inactive_on_update="false" label="Review and Respond" value="review and respond"/>
-                <element inactive_on_update="false" label="Review and Respond (Resubmittal)" value="review and respond (resubmittal)"/>
-                <element inactive_on_update="false" label="Appropriate Attention &amp; Action" sequence="0" value="appropriate attention &amp; action"/>
                 <element inactive="true" inactive_on_update="true" label="Final Reply for Governor's Signature" sequence="0" value="final reply for governor's signature"/>
-                <element inactive_on_update="false" label="Arrange Meeting" sequence="1" value="arrange meeting"/>
-                <element inactive_on_update="false" label="Comment &amp; Recommendations" sequence="2" value="comment &amp; recommendations"/>
-                <element inactive_on_update="false" label="Direct Action/Reply" sequence="3" value="direct action/reply"/>
-                <element inactive_on_update="false" label="Draft Reply" sequence="4" value="draft reply"/>
-                <element inactive_on_update="false" label="File" sequence="5" value="file"/>
-                <element inactive_on_update="false" label="Final Reply for Governors Signature" sequence="6" value="final reply for governors signature"/>
-                <element inactive_on_update="false" label="Information" sequence="7" value="information"/>
-                <element inactive_on_update="false" label="Investigate &amp; Report Back" sequence="8" value="investigate &amp; report back"/>
-                <element inactive_on_update="false" label="Keep Enclosure(s)" sequence="9" value="keep enclosure(s)"/>
-                <element inactive_on_update="false" label="No Response Required" sequence="10" value="no response required"/>
-                <element inactive_on_update="false" label="Phone Call" sequence="11" value="phone call"/>
-                <element inactive_on_update="false" label="Return" sequence="12" value="return"/>
-                <element inactive_on_update="false" label="Return Enclosure(s)" sequence="13" value="return enclosure(s)"/>
-                <element inactive_on_update="false" label="Review" sequence="14" value="review"/>
-                <element inactive_on_update="false" label="See Me" sequence="15" value="see me"/>
-                <element inactive_on_update="false" label="Signature" sequence="16" value="signature"/>
-                <element inactive_on_update="false" label="Submit Copy of Response" sequence="17" value="submit copy of response"/>
-                <element inactive_on_update="false" label="Other" sequence="18" value="other"/>
+                <element inactive_on_update="false" label="None" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Review and Respond" sequence="1" value="review and respond"/>
+                <element inactive_on_update="false" label="Review and Respond (Resubmittal)" sequence="2" value="review and respond (resubmittal)"/>
+                <element inactive_on_update="false" label="Appropriate Attention &amp; Action" sequence="3" value="appropriate attention &amp; action"/>
+                <element inactive_on_update="false" label="Arrange Meeting" sequence="4" value="arrange meeting"/>
+                <element inactive_on_update="false" label="Comment &amp; Recommendations" sequence="5" value="comment &amp; recommendations"/>
+                <element inactive_on_update="false" label="Direct Action/Reply" sequence="6" value="direct action/reply"/>
+                <element inactive_on_update="false" label="Draft Reply" sequence="7" value="draft reply"/>
+                <element inactive_on_update="false" label="File" sequence="8" value="file"/>
+                <element inactive_on_update="false" label="Final Reply for Governors Signature" sequence="9" value="final reply for governors signature"/>
+                <element inactive_on_update="false" label="Information" sequence="10" value="information"/>
+                <element inactive_on_update="false" label="Investigate &amp; Report Back" sequence="11" value="investigate &amp; report back"/>
+                <element inactive_on_update="false" label="Keep Enclosure(s)" sequence="12" value="keep enclosure(s)"/>
+                <element inactive_on_update="false" label="No Response Required" sequence="13" value="no response required"/>
+                <element inactive_on_update="false" label="Phone Call" sequence="14" value="phone call"/>
+                <element inactive_on_update="false" label="Return" sequence="15" value="return"/>
+                <element inactive_on_update="false" label="Return Enclosure(s)" sequence="16" value="return enclosure(s)"/>
+                <element inactive_on_update="false" label="Review" sequence="17" value="review"/>
+                <element inactive_on_update="false" label="See Me" sequence="18" value="see me"/>
+                <element inactive_on_update="false" label="Signature" sequence="19" value="signature"/>
+                <element inactive_on_update="false" label="Submit Copy of Response" sequence="20" value="submit copy of response"/>
+                <element inactive_on_update="false" label="Other" sequence="21" value="other"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Addressed to" max_length="32" name="u_addressed_to" reference="x_522137_mailtrax_mailing_list" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="string"/>
         <element label="Correspondence" max_length="40" name="u_correspondence_ind" read_only="true" type="boolean"/>
+        <element default="1" label="Cycle" max_length="40" name="u_cycle" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Date received from Division" max_length="40" name="u_date_rec_from_div" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned from GOV" max_length="40" name="u_date_ret_from_gov" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned to Division" max_length="40" name="u_date_ret_to_div" type="glide_date"/>
@@ -116,6 +118,7 @@
                 <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Office log number" max_length="40" name="u_office_log_no" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Originator's company/department" max_length="80" name="u_originator_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Choice 1" label="Referral action requested" max_length="40" name="u_ref_act_requested" type="string">
@@ -127,12 +130,13 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_request_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="journal entry only" label="Request type" max_length="40" name="u_request_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Letter Approval Request" sequence="0" value="letter_approval"/>
-                <element inactive_on_update="false" label="No Due Date - Respond ASAP" sequence="1" value="no_due_date"/>
-                <element inactive_on_update="false" label="No Response Required" sequence="2" value="no_response_required"/>
-                <element inactive_on_update="false" label="Response Requested" sequence="3" value="response_requested"/>
+                <element inactive_on_update="false" label="Journal Entry Only" sequence="0" value="journal entry only"/>
+                <element inactive_on_update="false" label="Letter Approval Request" sequence="1" value="letter_approval"/>
+                <element inactive_on_update="false" label="No Due Date - Respond ASAP" sequence="2" value="no_due_date"/>
+                <element inactive_on_update="false" label="No Response Required" sequence="3" value="no_response_required"/>
+                <element inactive_on_update="false" label="Response Requested" sequence="4" value="response_requested"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Route to date" max_length="40" name="u_route_to_date" type="glide_date_time"/>

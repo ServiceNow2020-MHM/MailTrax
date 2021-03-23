@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Office Log Counters" max_length="40" name="x_522137_mailtrax_office_log_counters" sizeclass="3" type="collection">
+        <element default="0" label="Counter" max_length="4" name="counter" type="integer"/>
+        <element default="1" label="Cycle" max_length="4" name="cycle" type="string"/>
+        <element choice="3" default="Administration" label="Division" max_length="40" name="division" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Administration" value="Administration"/>
+                <element inactive_on_update="false" label="Airports" value="Airports"/>
+                <element inactive_on_update="false" label="Harbors" value="Harbors"/>
+                <element inactive_on_update="false" label="Highways" value="Highways"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="division" dependent_on_field="division" label="Office" max_length="40" name="office" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Administration" inactive_on_update="false" label="ADM" value="ADM"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR" value="AIR"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-A" value="AIR-A"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-H" value="AIR-H"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-I" value="AIR-I"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-K" value="AIR-K"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-L" value="AIR-L"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-M" value="AIR-M"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-O" value="AIR-O"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR-V" value="AIR=V"/>
+                <element dependent_value="Airports" inactive_on_update="false" label="AIR=E" value="AIR-E"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="ATDC" value="ATDC"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="BUS" value="BUS"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="CON" value="CON"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="CSS" value="CSS"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP-A" value="DEP-A"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP-H" value="DEP-H"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP-HWY" value="DEP-HWY"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP-S" value="DEP-S"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP=HY" value="DEP-HY"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DEP=P" value="DEP=P"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DIR" value="DIR"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DIR-CD" value="DIR-CD"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DIR-CZ" value="DIR-CZ"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DIR-P" value="DIR-P"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="DIR-SA" value="DIR-SA"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="ENV" value="ENV"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR" value="HAR"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-E" value="HAR-E"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-H" value="HAR-H"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-K" value="HAR-K"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-M" value="HAR-M"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-O" value="HAR-O"/>
+                <element dependent_value="Harbors" inactive_on_update="false" label="HAR-S" value="HAR-S"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY" value="HWY"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-A" value="HWY-A"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-C" value="HWY-C"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-D" value="HWY-D"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-E" value="HWY-E"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-H" value="HWY-H"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-K" value="HWY-K"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-L" value="HWY-L"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-M" value="HWY-M"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-O" value="HWY-O"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-P" value="HWY-P"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-R" value="HWY-R"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-S" value="HWY-S"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-T" value="HWT-T"/>
+                <element dependent_value="Highways" inactive_on_update="false" label="HWY-V" value="HWY-V"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="OCR" value="OCR"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="OMPO" value="OMPO"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="PER" value="PER"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="PPB" value="PPB"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="RTS" value="RTS"/>
+                <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
+            </choice>
+        </element>
+    </element>
+</database>

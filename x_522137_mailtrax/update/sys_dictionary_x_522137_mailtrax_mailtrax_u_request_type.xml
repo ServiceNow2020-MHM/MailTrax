@@ -6,13 +6,13 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Request type</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>journal entry only</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-06 19:52:40</sys_created_on>
         <sys_id>1ca812612f612010a54a821df699b65f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Request type</sys_name>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_dictionary_x_522137_mailtrax_mailtrax_u_request_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-19 22:05:00</sys_updated_on>
+        <sys_updated_on>2021-03-22 20:20:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
