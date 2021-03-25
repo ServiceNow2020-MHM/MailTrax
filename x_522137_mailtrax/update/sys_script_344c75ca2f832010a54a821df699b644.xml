@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_522137_mailtrax_mailtrax</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_522137_mailtrax_mailtrax">u_officeVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="u_office" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>MailTrax Set Office Log Number</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+        // 1. Create an object to store rows from a table. Indicate the table to query from
+        var grCounter = new GlideRecord('x_522137_mailtrax_office_log_counters');
+
+        // 2. Build query
+        grCounter.addQuery('cycle', 'u_cycle');
+        grCounter.addQuery('office', 'u_office');
+
+        // 3. Execute query 
+        grCounter.query();
+
+        // 4. Process returned records
+        while(grCounter.next()){
+            // Update Office Log Number  
+            grCounter.u_office_log_no = current.counter + 1;
+            grCounter.update();
+        }
+
+    })(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-23 20:45:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>344c75ca2f832010a54a821df699b644</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>MailTrax Set Office Log Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_344c75ca2f832010a54a821df699b644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-23 21:58:31</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=344c75ca2f832010a54a821df699b644"/>
+</record_update>

@@ -10,7 +10,7 @@
                 <element inactive_on_update="false" label="Highways" value="Highways"/>
             </choice>
         </element>
-        <element choice="1" dependent="division" dependent_on_field="division" label="Office" max_length="40" name="office" type="choice" use_dependent_field="true">
+        <element choice="1" dependent="division" dependent_on_field="division" label="Office" mandatory="true" max_length="40" name="office" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Administration" inactive_on_update="false" label="ADM" value="ADM"/>
                 <element dependent_value="Airports" inactive_on_update="false" label="AIR" value="AIR"/>
@@ -69,5 +69,10 @@
                 <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
             </choice>
         </element>
+        <element label="Prefix" max_length="40" name="prefix" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

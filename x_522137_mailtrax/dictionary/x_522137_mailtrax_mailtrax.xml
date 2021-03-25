@@ -30,7 +30,7 @@
         <element attributes="encode_utf8=false" label="Addressed to" max_length="32" name="u_addressed_to" reference="x_522137_mailtrax_mailing_list" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="string"/>
         <element label="Correspondence" max_length="40" name="u_correspondence_ind" read_only="true" type="boolean"/>
-        <element default="1" label="Cycle" max_length="40" name="u_cycle" read_only="true" type="integer"/>
+        <element default="1" label="Cycle" max_length="40" name="u_cycle" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Date received from Division" max_length="40" name="u_date_rec_from_div" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned from GOV" max_length="40" name="u_date_ret_from_gov" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Date returned to Division" max_length="40" name="u_date_ret_to_div" type="glide_date"/>
@@ -52,7 +52,7 @@
         <element attributes="edge_encryption_enabled=true" label="Governor Referral number" max_length="40" name="u_govref_number" type="string"/>
         <element label="Governor Referral" max_length="40" name="u_gov_ref_ind" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Correspondence date" max_length="40" name="u_letter_date" type="glide_date"/>
-        <element attributes="encode_utf8=false" label="Originator (from)" max_length="32" name="u_letter_from" reference="x_522137_mailtrax_mailing_list" type="reference"/>
+        <element attributes="encode_utf8=false" label="From" max_length="32" name="u_letter_from" reference="x_522137_mailtrax_mailing_list" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="DOT letter number" max_length="40" name="u_letter_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Subject" max_length="80" name="u_letter_subject" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="javascript: document.title" label="Letter type" max_length="40" name="u_letter_type" type="string" virtual="true">
@@ -118,8 +118,8 @@
                 <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Office log number" max_length="40" name="u_office_log_no" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Originator's company/department" max_length="80" name="u_originator_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Office log number" max_length="40" name="u_office_log_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Info" max_length="80" name="u_originator_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Choice 1" label="Referral action requested" max_length="40" name="u_ref_act_requested" type="string">
             <choice>

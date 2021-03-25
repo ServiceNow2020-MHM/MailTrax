@@ -16,13 +16,13 @@
 
     if (g_form.isNewRecord()) {
 
-        // Instantiate the MTXClientUtil Script Include 
+        // Instantiate the MailTraxOfficeInfo Script Include 
         var getUserInfo = new GlideAjax('MailTraxOfficeInfo');
         // Specify the getUserInfo method
         getUserInfo.addParam('sysparm_name', 'getUserInfo');
         // Pass the record creator's name
         getUserInfo.addParam('sysparm_user', g_user.getFullName());
-        //jslog("The currently logged in user is " + g_user.getFullName());
+        // jslog("The currently logged in user is " + g_user.getFullName());
         // Send the request to the server
         getUserInfo.getXML(populateUserFields);
     }
@@ -43,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71d158402ff22010a54a821df699b6ca</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>MailTrax Set Office</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -51,7 +51,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_script_client_71d158402ff22010a54a821df699b6ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-10 22:00:49</sys_updated_on>
+        <sys_updated_on>2021-03-23 22:24:09</sys_updated_on>
         <table>x_522137_mailtrax_mailtrax</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
