@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Office Log Counters" max_length="40" name="x_522137_mailtrax_office_log_counters" sizeclass="3" type="collection">
+    <element label="Office Log Counters" max_length="40" name="x_522137_mailtrax_office_log_counters" sizeclass="7" type="collection">
         <element default="0" label="Counter" max_length="4" name="counter" type="integer"/>
         <element default="1" label="Cycle" max_length="4" name="cycle" type="string"/>
         <element choice="3" default="Administration" label="Division" max_length="40" name="division" type="choice">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Use the Script Include to retrieve the  Office Log Number database when the form loads.</description>
@@ -10,16 +10,17 @@
         <messages/>
         <name>MailTrax Set Office Log Number</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onSubmit() {
     //Check to see if the form is for a new record.  
     if (g_form.isNewRecord()) {
 
         // Instantiate the GetLastOfficeLogNo Script Include 
         var getLogNo = new GlideAjax('GetLastOfficeLogNo');
-        // Specify the getUserInfo method; GlideAjax uses sysparm_name to find which fungtion to use
+        // Specify the getUserInfo method; GlideAjax uses sysparm_name to find which function to use
         getLogNo.addParam('sysparm_name', 'getLogNo');
         // Pass the form's parameters to the script include
         getLogNo.addParam('sysparm_office', g_form.getValue('u_office'));
+        jslog("The current value of office on form is " + g_form.getValue('u_office'));
         // Send the request to the server
         getLogNo.getXML(populateUserFields);
     }
@@ -31,6 +32,7 @@
         var infoFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
         g_form.clearValue('u_office_log_no');
         g_form.setValue('u_office_log_no', infoFromScriptInclude);
+		// jslog("The current value of office number on form is "  + g_form.getValue('u_office_log_no'));
 
     }
 }]]></script>
@@ -40,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>364c6d712f872010a54a821df699b6e4</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>MailTrax Set Office Log Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -48,9 +50,9 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_script_client_364c6d712f872010a54a821df699b6e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-24 22:22:20</sys_updated_on>
+        <sys_updated_on>2021-04-06 23:09:14</sys_updated_on>
         <table>x_522137_mailtrax_mailtrax</table>
-        <type>onLoad</type>
+        <type>onSubmit</type>
         <ui_type>10</ui_type>
         <view/>
     </sys_script_client>

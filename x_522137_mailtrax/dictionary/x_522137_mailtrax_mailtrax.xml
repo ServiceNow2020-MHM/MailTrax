@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="16" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="16" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Final Reply for Governor's Signature" sequence="0" value="final reply for governor's signature"/>
