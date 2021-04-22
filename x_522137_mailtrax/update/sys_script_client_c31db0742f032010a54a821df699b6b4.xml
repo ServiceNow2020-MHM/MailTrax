@@ -8,7 +8,7 @@
         <global>false</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>MailTrax Set VIew Name Indicator</name>
+        <name>MailTrax Set View Name Indicator</name>
         <order/>
         <script><![CDATA[function onLoad() {
     //Type appropriate comment here, and begin script below
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c31db0742f032010a54a821df699b6b4</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>MailTrax Set VIew Name Indicator</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>MailTrax Set View Name Indicator</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_script_client_c31db0742f032010a54a821df699b6b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-24 22:57:22</sys_updated_on>
+        <sys_updated_on>2021-04-19 22:36:50</sys_updated_on>
         <table>x_522137_mailtrax_mailtrax</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

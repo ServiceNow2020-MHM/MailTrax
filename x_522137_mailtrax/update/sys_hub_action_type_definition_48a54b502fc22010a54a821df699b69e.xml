@@ -74,7 +74,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
         <value>x_522137_mailtrax_mailtrax</value>
-        <variable display_value="">b8a793697f2a32005f58108c3ffa910b</variable>
+        <variable display_value="Table">b8a793697f2a32005f58108c3ffa910b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -88,7 +88,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
         <value>45297e942f822010a54a821df699b603</value>
-        <variable display_value="">cc7fb8b17f0332004d145212bdfa91da</variable>
+        <variable display_value="Notification">cc7fb8b17f0332004d145212bdfa91da</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=342847d02fc22010a54a821df699b69e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -371,94 +371,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=48a54b502fc22010a54a821df699b69e^sys_idNOT IN342847d02fc22010a54a821df699b69e"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Approved Notification">48a54b502fc22010a54a821df699b69e</action>
-        <cid>e31ef502-ac20-4da6-8a1b-5b3a26a9006d</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Notification step</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Notification">5d31f8f37f1322004d145212bdfa9145</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>342847d02fc22010a54a821df699b69e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=342847d02fc22010a54a821df699b69e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>342847d02fc22010a54a821df699b69e</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>b42847d02fc22010a54a821df699b6a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-        <value>x_522137_mailtrax_mailtrax</value>
-        <variable display_value="">b8a793697f2a32005f58108c3ffa910b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>342847d02fc22010a54a821df699b69e</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>f02847d02fc22010a54a821df699b6a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-        <value>45297e942f822010a54a821df699b603</value>
-        <variable display_value="">cc7fb8b17f0332004d145212bdfa91da</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=342847d02fc22010a54a821df699b69e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>342847d02fc22010a54a821df699b69e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>f82847d02fc22010a54a821df699b6a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>342847d02fc22010a54a821df699b69e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>702847d02fc22010a54a821df699b6a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value>{{action.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>342847d02fc22010a54a821df699b69e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:14</sys_created_on>
-        <sys_id>bc2847d02fc22010a54a821df699b6a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:14</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value/>
-    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_48a54b502fc22010a54a821df699b69e^sys_idNOT IN3ff54f502fc22010a54a821df699b6c0,bbf54f502fc22010a54a821df699b6c6,bff54f502fc22010a54a821df699b6ba"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -617,7 +529,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
         <value>45297e942f822010a54a821df699b603</value>
-        <variable display_value="">cc7fb8b17f0332004d145212bdfa91da</variable>
+        <variable display_value="Notification">cc7fb8b17f0332004d145212bdfa91da</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -631,7 +543,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
         <value>x_522137_mailtrax_mailtrax</value>
-        <variable display_value="">b8a793697f2a32005f58108c3ffa910b</variable>
+        <variable display_value="Table">b8a793697f2a32005f58108c3ffa910b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9e2887d02fc22010a54a821df699b6b3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -914,94 +826,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=499607902fc22010a54a821df699b6ef^sys_idNOT IN9e2887d02fc22010a54a821df699b6b3"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Approved Notification">499607902fc22010a54a821df699b6ef</action>
-        <cid>e31ef502-ac20-4da6-8a1b-5b3a26a9006d</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Notification step</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Notification">5d31f8f37f1322004d145212bdfa9145</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>9e2887d02fc22010a54a821df699b6b3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=9e2887d02fc22010a54a821df699b6b3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>9e2887d02fc22010a54a821df699b6b3</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>262887d02fc22010a54a821df699b6b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-        <value>45297e942f822010a54a821df699b603</value>
-        <variable display_value="">cc7fb8b17f0332004d145212bdfa91da</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>9e2887d02fc22010a54a821df699b6b3</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>e62887d02fc22010a54a821df699b6b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-        <value>x_522137_mailtrax_mailtrax</value>
-        <variable display_value="">b8a793697f2a32005f58108c3ffa910b</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9e2887d02fc22010a54a821df699b6b3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>notification</field>
-        <id>9e2887d02fc22010a54a821df699b6b3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>2e2887d02fc22010a54a821df699b6b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>9e2887d02fc22010a54a821df699b6b3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>a22887d02fc22010a54a821df699b6b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value>{{action.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>9e2887d02fc22010a54a821df699b6b3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 22:39:21</sys_created_on>
-        <sys_id>ee2887d02fc22010a54a821df699b6b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 22:39:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_5d31f8f37f1322004d145212bdfa9145</table>
-        <value/>
-    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_499607902fc22010a54a821df699b6ef^sys_idNOT IN499607902fc22010a54a821df699b6f5,859607902fc22010a54a821df699b6fb,d19647902fc22010a54a821df699b601"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record</element>

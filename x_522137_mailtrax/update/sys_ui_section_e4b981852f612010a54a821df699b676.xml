@@ -4,13 +4,13 @@
             <element>sys_created_on</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>4c4bde462f072010a54a821df699b600</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>cc4911762f672010a54a821df699b6cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>sys_updated_on</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>084bde462f072010a54a821df699b601</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>444911762f672010a54a821df699b6cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_by</element>
+            <element>u_correspondence_ind</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>8c4bde462f072010a54a821df699b601</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>c84911762f672010a54a821df699b6cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>044bde462f072010a54a821df699b602</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>404911762f672010a54a821df699b6cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>sys_created_by</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>884bde462f072010a54a821df699b602</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>c44911762f672010a54a821df699b6cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>sys_updated_by</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>004bde462f072010a54a821df699b603</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>4c4911762f672010a54a821df699b6cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>active</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 22:55:16</sys_created_on>
-            <sys_id>844bde462f072010a54a821df699b603</sys_id>
+            <sys_created_on>2021-04-19 22:33:45</sys_created_on>
+            <sys_id>c04911762f672010a54a821df699b6ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Journal Information" display_value="Journal Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e4b981852f612010a54a821df699b676</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 22:55:16</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:33:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

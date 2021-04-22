@@ -1,212 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Correspondence Information" section_id="e8b981852f612010a54a821df699b674" sys_domain="global" table="x_522137_mailtrax_mailtrax" version="3" view="Correspondence">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_correspondence_ind</element>
+            <element>u_office_log_no</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>eb2b6b6a2f032010a54a821df699b637</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>063c513a2f672010a54a821df699b637</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_office_log_no</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>a32b6b6a2f032010a54a821df699b638</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_letter_date</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>272b6b6a2f032010a54a821df699b638</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>8a3c513a2f672010a54a821df699b637</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_letter_from</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>a72b6b6a2f032010a54a821df699b638</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>023c513a2f672010a54a821df699b638</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_originator_company</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>2b2b6b6a2f032010a54a821df699b638</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_addressed_to</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>ab2b6b6a2f032010a54a821df699b638</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>863c513a2f672010a54a821df699b638</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>2f2b6b6a2f032010a54a821df699b638</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>af2b6b6a2f032010a54a821df699b638</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_log_date</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>232b6b6a2f032010a54a821df699b639</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_division</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>a32b6b6a2f032010a54a821df699b639</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_office</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>272b6b6a2f032010a54a821df699b639</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_letter_number</element>
-            <position>11</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>a72b6b6a2f032010a54a821df699b639</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>0e3c513a2f672010a54a821df699b638</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>823c513a2f672010a54a821df699b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>0a3c513a2f672010a54a821df699b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_log_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>8e3c513a2f672010a54a821df699b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_division</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>063c513a2f672010a54a821df699b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_office</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>8a3c513a2f672010a54a821df699b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>12</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>2b2b6b6a2f032010a54a821df699b639</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>023c513a2f672010a54a821df699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_letter_subject</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>ab2b6b6a2f032010a54a821df699b639</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>863c513a2f672010a54a821df699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_comments</element>
-            <position>14</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-25 18:01:27</sys_created_on>
-            <sys_id>2f2b6b6a2f032010a54a821df699b639</sys_id>
+            <sys_created_on>2021-04-19 22:46:44</sys_created_on>
+            <sys_id>0e3c513a2f672010a54a821df699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Correspondence Information" display_value="Correspondence Information" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="50b981852f612010a54a821df699b671">e8b981852f612010a54a821df699b674</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-25 18:01:27</sys_updated_on>
+            <sys_updated_on>2021-04-19 22:46:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
