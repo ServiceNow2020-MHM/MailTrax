@@ -118,7 +118,7 @@
                 <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Office log number" max_length="40" name="u_office_log_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Office log number" max_length="40" name="u_office_log_no" type="string"/>
         <element active="false" attributes="edge_encryption_enabled=true" label="From Info" max_length="80" name="u_originator_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Choice 1" label="Referral action requested" max_length="40" name="u_ref_act_requested" type="string">
