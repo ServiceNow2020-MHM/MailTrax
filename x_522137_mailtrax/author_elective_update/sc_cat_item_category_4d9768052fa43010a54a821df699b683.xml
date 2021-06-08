@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="MailTrax">3897a0812fa43010a54a821df699b639</sc_cat_item>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 01:30:09</sys_created_on>
+        <sys_id>4d9768052fa43010a54a821df699b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.MailTrax</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sc_cat_item_category_4d9768052fa43010a54a821df699b683</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 01:30:09</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sc_cat_item_category_4d9768052fa43010a54a821df699b683</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="MailTrax">3897a0812fa43010a54a821df699b639</sc_cat_item><sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-03 01:30:09</sys_created_on><sys_id>4d9768052fa43010a54a821df699b683</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departmental Services.MailTrax</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sc_cat_item_category_4d9768052fa43010a54a821df699b683</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-03 01:30:09</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>273412590</payload_hash>
+        <record_name>Departmental Services.MailTrax</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 01:30:09</sys_created_on>
+        <sys_id>819768052fa43010a54a821df699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179cf7df82c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 01:30:09</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>0997680520a43010bd1f405e09e8f686</update_guid>
+        <update_guid_history>0997680520a43010bd1f405e09e8f686:273412590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Departmental Services.MailTrax">3db72c052fa43010a54a821df699b6a0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 01:30:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>1dc21acd6fa64e3d8972c9fbe318f339</sys_id>
+        <sys_metadata>4d9768052fa43010a54a821df699b683</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.MailTrax</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_4d9768052fa43010a54a821df699b683</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_4d9768052fa43010a54a821df699b683">819768052fa43010a54a821df699b687</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 01:30:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

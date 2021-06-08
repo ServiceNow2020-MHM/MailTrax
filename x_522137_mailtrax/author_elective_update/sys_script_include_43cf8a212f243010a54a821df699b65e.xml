@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_522137_mailtrax.MyUserReferenceCreator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MyUserReferenceCreator</name>
+        <script><![CDATA[var MyUserReferenceCreator = Class.create();
+MyUserReferenceCreator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+    create: function(current, value) {
+        current.name=value;
+        return current.insert();
+    },
+ 
+    type: 'MyUserReferenceCreator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 22:23:09</sys_created_on>
+        <sys_id>43cf8a212f243010a54a821df699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyUserReferenceCreator</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_script_include_43cf8a212f243010a54a821df699b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 22:23:09</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_script_include_43cf8a212f243010a54a821df699b65e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_522137_mailtrax.MyUserReferenceCreator&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;MyUserReferenceCreator&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var MyUserReferenceCreator = Class.create();
+MyUserReferenceCreator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+    create: function(current, value) {
+        current.name=value;
+        return current.insert();
+    },
+ 
+    type: 'MyUserReferenceCreator'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-04 22:23:09&lt;/sys_created_on&gt;&lt;sys_id&gt;43cf8a212f243010a54a821df699b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MyUserReferenceCreator&lt;/sys_name&gt;&lt;sys_package display_value="MailTrax" source="x_522137_mailtrax"&gt;add2772e2f112010a54a821df699b60b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MailTrax"&gt;add2772e2f112010a54a821df699b60b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_43cf8a212f243010a54a821df699b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-04 22:23:09&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1160306398</payload_hash>
+        <record_name>MyUserReferenceCreator</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 22:23:09</sys_created_on>
+        <sys_id>4dff0e212f243010a54a821df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179d91f793f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 22:23:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>45ff4eedcee030104685efdcc896207a</update_guid>
+        <update_guid_history>45ff4eedcee030104685efdcc896207a:1160306398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 18:07:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>13236892e91c459ca34df493634bc890</sys_id>
+        <sys_metadata>43cf8a212f243010a54a821df699b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyUserReferenceCreator</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_script_include_43cf8a212f243010a54a821df699b65e</sys_update_name>
+        <sys_update_version display_value="sys_script_include_43cf8a212f243010a54a821df699b65e">4dff0e212f243010a54a821df699b696</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 18:07:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
