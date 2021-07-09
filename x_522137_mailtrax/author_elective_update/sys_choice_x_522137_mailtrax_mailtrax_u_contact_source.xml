@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_contact_source" table="x_522137_mailtrax_mailtrax" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_contact_source</element>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:02:08</sys_created_on>
+            <sys_id>f1146be92fc53010a54a821df699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_contact_source</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_choice_x_522137_mailtrax_mailtrax_u_contact_source</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:02:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_contact_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External Contact</label>
+            <language>en</language>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 01:02:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46e36be92fc53010a54a821df699b67a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 01:03:00</sys_updated_on>
+            <value>External Contact</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

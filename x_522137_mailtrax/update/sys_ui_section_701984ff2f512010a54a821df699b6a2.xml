@@ -4,27 +4,27 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-04 20:39:04</sys_created_on>
-            <sys_id>a02875a92fa03010a54a821df699b67c</sys_id>
+            <sys_created_on>2021-06-14 20:07:41</sys_created_on>
+            <sys_id>12d05d382fb03010a54a821df699b6f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_522137_mailtrax_mailing_list" sys_domain="global" view="Default view">701984ff2f512010a54a821df699b6a2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-04 20:39:04</sys_updated_on>
+            <sys_updated_on>2021-06-14 20:07:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_1</element>
+            <element>title</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-04 20:39:04</sys_created_on>
-            <sys_id>6c2875a92fa03010a54a821df699b67c</sys_id>
+            <sys_created_on>2021-06-14 20:07:41</sys_created_on>
+            <sys_id>dad05d382fb03010a54a821df699b6f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_522137_mailtrax_mailing_list" sys_domain="global" view="Default view">701984ff2f512010a54a821df699b6a2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-04 20:39:04</sys_updated_on>
+            <sys_updated_on>2021-06-14 20:07:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>company_department</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-04 20:39:04</sys_created_on>
-            <sys_id>e02875a92fa03010a54a821df699b67d</sys_id>
+            <sys_created_on>2021-06-14 20:07:41</sys_created_on>
+            <sys_id>52d05d382fb03010a54a821df699b6f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_522137_mailtrax_mailing_list" sys_domain="global" view="Default view">701984ff2f512010a54a821df699b6a2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-04 20:39:04</sys_updated_on>
+            <sys_updated_on>2021-06-14 20:07:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>title</element>
+            <element>active</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-04 21:11:28</sys_created_on>
-            <sys_id>978fb5612fe03010a54a821df699b6e8</sys_id>
+            <sys_created_on>2021-06-16 18:52:46</sys_created_on>
+            <sys_id>68e29f512ff03010a54a821df699b6f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_522137_mailtrax_mailing_list" sys_domain="global" view="Default view">701984ff2f512010a54a821df699b6a2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-04 21:11:28</sys_updated_on>
+            <sys_updated_on>2021-06-16 18:52:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

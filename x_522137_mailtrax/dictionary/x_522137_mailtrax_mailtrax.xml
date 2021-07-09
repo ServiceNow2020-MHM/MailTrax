@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true" audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="18" type="collection">
+        <element label="Letter from" max_length="100" name="letter_from" reference="x_522137_mailtrax_mailing_list" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Final Reply for Governor's Signature" sequence="0" value="final reply for governor's signature"/>
@@ -27,7 +28,7 @@
                 <element inactive_on_update="false" label="Other" sequence="21" value="other"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" dynamic_creation="true" dynamic_creation_script="new MyUserReferenceCreator().create(current, value);" label="Addressed to" max_length="32" name="u_addressed_to" reference="x_522137_mailtrax_mailing_list" type="reference"/>
+        <element attributes="encode_utf8=false" dynamic_creation="true" dynamic_creation_script="current.name = value;&#13;&#10;current.insert();" label="Addressed to" max_length="32" name="u_addressed_to" reference="x_522137_mailtrax_mailing_list" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="string"/>
         <element label="Correspondence" max_length="40" name="u_correspondence_ind" read_only="true" type="boolean"/>
         <element default="1" label="Cycle" max_length="40" name="u_cycle" type="integer"/>
@@ -47,12 +48,15 @@
         </element>
         <element active="false" label="When needed" max_length="40" name="u_due_dat" type="due_date"/>
         <element label="File attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
+        <element label="Attachment from GOV" max_length="40" name="u_file_from_gov" type="file_attachment"/>
+        <element label="Attachment to GOV" max_length="40" name="u_file_to_gov" type="file_attachment"/>
         <element attributes="encode_utf8=false" label="From company" max_length="32" name="u_from_company" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Document(s) mailed date" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Governor Referral number" max_length="40" name="u_govref_number" type="string"/>
         <element label="Governor Referral" max_length="40" name="u_gov_ref_ind" read_only="true" type="boolean"/>
+        <element label="Incoming  Attachment" max_length="40" name="u_incoming_attachment" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Date on correspondence" max_length="40" name="u_letter_date" type="glide_date"/>
-        <element attributes="encode_utf8=false" dynamic_creation="true" dynamic_creation_script="javascript:new MyUserReferenceCreator().create(current, value);" label="From" max_length="32" name="u_letter_from" reference="x_522137_mailtrax_mailing_list" type="reference"/>
+        <element attributes="encode_utf8=false" dynamic_creation="true" dynamic_creation_script="current.name = value;&#13;&#10;current.insert();" label="From" max_length="32" name="u_letter_from" reference="x_522137_mailtrax_mailing_list" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="DOT letter number" max_length="40" name="u_letter_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Subject" max_length="80" name="u_letter_subject" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="javascript: document.title" label="Letter type" max_length="40" name="u_letter_type" type="string" virtual="true">
@@ -118,9 +122,10 @@
                 <element dependent_value="Administration" inactive_on_update="false" label="STP" value="STP"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Office log number" max_length="40" name="u_office_log_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Office log number" max_length="40" name="u_office_log_no" type="string"/>
         <element active="false" attributes="edge_encryption_enabled=true" label="From Info" max_length="80" name="u_originator_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Outgoing Attachment" max_length="40" name="u_outgoing_attachment" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Choice 1" label="Referral action requested" max_length="40" name="u_ref_act_requested" type="string">
             <choice>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
@@ -129,6 +134,7 @@
                 <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Related document" max_length="1024" name="u_related_doc" type="url"/>
         <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="journal entry only" label="Request type" max_length="40" name="u_request_type" type="string">
             <choice>
@@ -140,6 +146,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Route to date" max_length="40" name="u_route_to_date" type="glide_date_time"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_1" type="simple_name_values"/>
         <element label="When needed" max_length="40" name="u_when_needed" type="glide_date"/>
     </element>
 </database>

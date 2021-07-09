@@ -182,6 +182,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_source</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 00:42:37</sys_created_on>
+            <sys_id>3b9f1fe52fc53010a54a821df699b6eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information (Default)" display_value="Correspondence Information (Default)" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">1148783e2fd12010a54a821df699b6fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 00:42:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>send_to</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 18:59:26</sys_created_on>
+            <sys_id>a6aadbbd2f013010a54a821df699b64f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information (Default)" display_value="Correspondence Information (Default)" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">1148783e2fd12010a54a821df699b6fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 18:59:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>letter_from</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-30 19:26:32</sys_created_on>
+            <sys_id>6fd06f352f413010a54a821df699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Correspondence Information (Default)" display_value="Correspondence Information (Default)" name="x_522137_mailtrax_mailtrax" sys_domain="global" view="Default view">1148783e2fd12010a54a821df699b6fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-30 19:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Correspondence Information (Default)</caption>
             <header>false</header>
