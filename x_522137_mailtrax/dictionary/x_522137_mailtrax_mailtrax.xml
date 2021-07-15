@@ -134,7 +134,7 @@
                 <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Related document" max_length="1024" name="u_related_doc" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Related document link" max_length="1024" name="u_related_doc" type="url"/>
         <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="journal entry only" label="Request type" max_length="40" name="u_request_type" type="string">
             <choice>

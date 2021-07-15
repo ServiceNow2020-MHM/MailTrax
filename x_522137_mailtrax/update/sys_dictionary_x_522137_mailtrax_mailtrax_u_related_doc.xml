@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Related document</column_label>
+        <column_label>Related document link</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-08 18:09:27</sys_created_on>
         <sys_id>90fb10a42f113010a54a821df699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Related document</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Related document link</sys_name>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
         <sys_policy/>
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sys_dictionary_x_522137_mailtrax_mailtrax_u_related_doc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 18:09:27</sys_updated_on>
+        <sys_updated_on>2021-07-15 19:25:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
