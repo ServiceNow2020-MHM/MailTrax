@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="assignment_group" label="Route to group" language="en" table="x_522137_mailtrax_mailtrax">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Route to group</label>
+            <language>en</language>
+            <name>x_522137_mailtrax_mailtrax</name>
+            <plural>Route to groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-20 23:47:30</sys_created_on>
+            <sys_id>216c5bd02f253010a54a821df699b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Route to group</sys_name>
+            <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+            <sys_update_name>sys_documentation_x_522137_mailtrax_mailtrax_assignment_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-20 23:47:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

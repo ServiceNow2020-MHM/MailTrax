@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="18" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="MailTrax" max_length="40" name="x_522137_mailtrax_mailtrax" sizeclass="19" type="collection">
         <element label="Letter from" max_length="100" name="letter_from" reference="x_522137_mailtrax_mailing_list" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Action requested" max_length="40" name="u_action_requested" type="string">
             <choice>
@@ -50,6 +50,7 @@
         <element label="File attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
         <element label="Attachment from GOV" max_length="40" name="u_file_from_gov" type="file_attachment"/>
         <element label="Attachment to GOV" max_length="40" name="u_file_to_gov" type="file_attachment"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="From List" max_length="1024" name="u_fromlist" reference="x_522137_mailtrax_mailing_list" type="glide_list"/>
         <element attributes="encode_utf8=false" label="From company" max_length="32" name="u_from_company" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Document(s) mailed date" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Governor Referral number" max_length="40" name="u_govref_number" type="string"/>

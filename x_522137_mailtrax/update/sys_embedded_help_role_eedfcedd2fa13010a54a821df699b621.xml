@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_522137_mailtrax.delete" name="x_522137_mailtrax.delete">57bf06112fe13010a54a821df699b641</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 20:47:00</sys_created_on>
+        <sys_id>eedfcedd2fa13010a54a821df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>57bf06112fe13010a54a821df699b641</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_eedfcedd2fa13010a54a821df699b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 20:47:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

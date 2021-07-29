@@ -59,8 +59,8 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to</recipient_fields>
-        <recipient_groups/>
+        <recipient_fields>assignment_group,additional_assignee_list,assigned_to</recipient_fields>
+        <recipient_groups name="MTX Route-To DIR">05c7ec4b2fe13010a54a821df699b600</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>false</send_self>
@@ -74,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6303c6492fe22010a54a821df699b6d1</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>MTX Action Requested</sys_name>
         <sys_overrides/>
         <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
@@ -82,7 +82,7 @@
         <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
         <sys_update_name>sysevent_email_action_6303c6492fe22010a54a821df699b6d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-18 19:32:48</sys_updated_on>
+        <sys_updated_on>2021-07-29 00:52:19</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

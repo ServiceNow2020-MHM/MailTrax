@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_content">
+    <sc_cat_item_content action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <content_type>external</content_type>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <kb_article/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <module/>
+        <name>Copy of MailTrax Correspondence</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("https://dev75109.service-now.com/DOT/?id=mailtrax_list_form&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Copy of Edit or Add Correspondence Documents</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:39:18</sys_created_on>
+        <sys_id>3a5086112fa13010a54a821df699b65b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Copy of MailTrax Correspondence</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sc_cat_item_content_3a5086112fa13010a54a821df699b65b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 19:40:42</sys_updated_on>
+        <target>internal</target>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <url>https://dev75109.service-now.com/DOT/?id=mailtrax_list_form</url>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_content>
+    <sys_translated_text action="DELETE" query="documentkey=3a5086112fa13010a54a821df699b65b"/>
+    <fx_price action="DELETE" query="id=3a5086112fa13010a54a821df699b65b"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>3a5086112fa13010a54a821df699b65b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:39:18</sys_created_on>
+        <sys_id>fa5086112fa13010a54a821df699b660</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 19:39:20</sys_updated_on>
+        <table>sc_cat_item_content</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="DELETE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>a746806208d804b2dc8eca4cef1d1830cc77aa52b84a1ae08454b6a76ab7896d</hash>
+        <image_height>16</image_height>
+        <image_width>16</image_width>
+        <size_bytes>241</size_bytes>
+        <size_compressed>258</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:39:19</sys_created_on>
+        <sys_id>0750c2512fa13010a54a821df699b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 19:39:19</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_content</table_name>
+        <table_sys_id>3a5086112fa13010a54a821df699b65b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="0750c2512fa13010a54a821df699b6e3">0750c2512fa13010a54a821df699b6e3</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:39:19</sys_created_on>
+        <sys_id>5b50c2512fa13010a54a821df699b6e5</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSAiDMwQYk5T//TwRSbEne7i4M/0Fwwd7lk4EiyzxdHEMseu+eteVjTBRpfZj+xlFxI+OiQI0Op7WbhaIvbGbPvvDypalVr5fiF59Ek/lPPhsbhjxSUTe3/H7n+yftVY871izgX+GoyWCVkRj54KZSye7CGYl9Wm0We3/MSmrhSlPczZxyI7mBLSxwn5tw7ZtFfzgLPouk9jSfVqx+85TJKOeis/TsOX0qTHsuqZ4JOmdXyV6xXKU/JsLc4dfRt5ZsPnYtSx4+ky9hDeV1EpzjrvQV6GIGT1c/l3VOCU0Aeb2Y4/EAAAA=</data>
+        <length>332</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="0750c2512fa13010a54a821df699b6e3">0750c2512fa13010a54a821df699b6e3</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:39:19</sys_created_on>
+        <sys_id>5350c2512fa13010a54a821df699b6e5</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sc_cat_item_content_3a5086112fa13010a54a821df699b65b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_content"><sc_cat_item_content action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><content_type>external</content_type><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><group/><hide_sp>false</hide_sp><icon/><ignore_price>false</ignore_price><image/><kb_article/><location/><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><module/><name>Copy of MailTrax Correspondence</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("https://dev75109.service-now.com/DOT/?id=mailtrax_list_form&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description>Copy of Edit or Add Correspondence Documents</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item_content</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 19:39:18</sys_created_on><sys_id>3a5086112fa13010a54a821df699b65b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Copy of MailTrax Correspondence</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sc_cat_item_content_3a5086112fa13010a54a821df699b65b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-23 19:40:42</sys_updated_on><target>internal</target><template/><template_manager_roles/><type>item</type><url>https://dev75109.service-now.com/DOT/?id=mailtrax_list_form</url><use_sc_layout>true</use_sc_layout><vendor/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item_content><sys_translated_text action="delete_multiple" query="documentkey=3a5086112fa13010a54a821df699b65b"/><fx_price action="delete_multiple" query="id=3a5086112fa13010a54a821df699b65b"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>3a5086112fa13010a54a821df699b65b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 19:39:18</sys_created_on><sys_id>fa5086112fa13010a54a821df699b660</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-23 19:39:20</sys_updated_on><table>sc_cat_item_content</table><type>calculated</type></fx_price><sys_attachment action="INSERT_OR_UPDATE"><average_image_color>#0</average_image_color><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>icon</file_name><hash>a746806208d804b2dc8eca4cef1d1830cc77aa52b84a1ae08454b6a76ab7896d</hash><image_height>16</image_height><image_width>16</image_width><size_bytes>241</size_bytes><size_compressed>258</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 19:39:19</sys_created_on><sys_id>0750c2512fa13010a54a821df699b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-23 19:39:19</sys_updated_on><table_name>ZZ_YYsc_cat_item_content</table_name><table_sys_id>3a5086112fa13010a54a821df699b65b</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="icon" sys_id="0750c2512fa13010a54a821df699b6e3">0750c2512fa13010a54a821df699b6e3</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 19:39:19</sys_created_on><sys_id>5b50c2512fa13010a54a821df699b6e5</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>6wzwc+flkuJiYGDg9fRwCQLSAiDMwQYk5T//TwRSbEne7i4M/0Fwwd7lk4EiyzxdHEMseu+eteVjTBRpfZj+xlFxI+OiQI0Op7WbhaIvbGbPvvDypalVr5fiF59Ek/lPPhsbhjxSUTe3/H7n+yftVY871izgX+GoyWCVkRj54KZSye7CGYl9Wm0We3/MSmrhSlPczZxyI7mBLSxwn5tw7ZtFfzgLPouk9jSfVqx+85TJKOeis/TsOX0qTHsuqZ4JOmdXyV6xXKU/JsLc4dfRt5ZsPnYtSx4+ky9hDeV1EpzjrvQV6GIGT1c/l3VOCU0Aeb2Y4/EAAAA=</data><length>332</length><position>1</position><sys_attachment display_value="icon" sys_id="0750c2512fa13010a54a821df699b6e3">0750c2512fa13010a54a821df699b6e3</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 19:39:19</sys_created_on><sys_id>5350c2512fa13010a54a821df699b6e5</sys_id></sys_attachment_doc></record_update>]]></payload>
+        <payload_hash>0</payload_hash>
+        <record_name>Copy of MailTrax Correspondence</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:40:43</sys_created_on>
+        <sys_id>efa08a512fa13010a54a821df699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad4e25f0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 19:40:43</sys_updated_on>
+        <type>Content Item</type>
+        <update_guid>e7a08a518fa13010edc4e5b92b2b3334</update_guid>
+        <update_guid_history>e7a08a518fa13010edc4e5b92b2b3334:525830754,1f500651fba130105892fb23a9e35d05:-1538929655,0750c251b0a1301010c9819a3f408bd7:275420114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of MailTrax Correspondence">b3a08a512fa13010a54a821df699b65b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 19:40:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_content">sc_cat_item_content</sys_db_object>
+        <sys_id>11dc3bc8e8384cde887da4e0e38e73f9</sys_id>
+        <sys_metadata>3a5086112fa13010a54a821df699b65b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of MailTrax Correspondence</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sc_cat_item_content_3a5086112fa13010a54a821df699b65b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_content_3a5086112fa13010a54a821df699b65b">efa08a512fa13010a54a821df699b634</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 19:40:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

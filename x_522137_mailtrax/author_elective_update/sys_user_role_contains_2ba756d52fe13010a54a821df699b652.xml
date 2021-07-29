@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_522137_mailtrax.author" name="x_522137_mailtrax.author">d3cdca5d2fa13010a54a821df699b61b</contains>
+        <role display_value="x_522137_mailtrax.delete" name="x_522137_mailtrax.delete">57bf06112fe13010a54a821df699b641</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 21:21:12</sys_created_on>
+        <sys_id>2ba756d52fe13010a54a821df699b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_522137_mailtrax.author.x_522137_mailtrax.delete</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_update_name>sys_user_role_contains_2ba756d52fe13010a54a821df699b652</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 21:21:12</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MailTrax">add2772e2f112010a54a821df699b60b</application>
+        <file_path/>
+        <instance_id>c83d4e84db58ff40f492c5970596194f</instance_id>
+        <instance_name>dev75109</instance_name>
+        <name>sys_user_role_contains_2ba756d52fe13010a54a821df699b652</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_522137_mailtrax.author" name="x_522137_mailtrax.author">d3cdca5d2fa13010a54a821df699b61b</contains><role display_value="x_522137_mailtrax.delete" name="x_522137_mailtrax.delete">57bf06112fe13010a54a821df699b641</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-23 21:21:12</sys_created_on><sys_id>2ba756d52fe13010a54a821df699b652</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_522137_mailtrax.author.x_522137_mailtrax.delete</sys_name><sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package><sys_policy/><sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope><sys_update_name>sys_user_role_contains_2ba756d52fe13010a54a821df699b652</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-23 21:21:12</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1068314597</payload_hash>
+        <record_name>x_522137_mailtrax.author.x_522137_mailtrax.delete</record_name>
+        <reverted_from/>
+        <source>9f9821ef2fed2010a54a821df699b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 21:21:12</sys_created_on>
+        <sys_id>2ba756192fe13010a54a821df699b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad53e5ef90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 21:21:12</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>63a75619c8e130109a3ebbb47c0645eb</update_guid>
+        <update_guid_history>63a75619c8e130109a3ebbb47c0645eb:-1068314597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 21:45:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>3639655b36c445bea50897f718afca24</sys_id>
+        <sys_metadata>2ba756d52fe13010a54a821df699b652</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_522137_mailtrax.author.x_522137_mailtrax.delete</sys_name>
+        <sys_package display_value="MailTrax" source="x_522137_mailtrax">add2772e2f112010a54a821df699b60b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MailTrax">add2772e2f112010a54a821df699b60b</sys_scope>
+        <sys_scope_delete display_value="">3afa11a57003436d99ee2a2fdca2fd71</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_2ba756d52fe13010a54a821df699b652</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_2ba756d52fe13010a54a821df699b652">2ba756192fe13010a54a821df699b6eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 21:45:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
